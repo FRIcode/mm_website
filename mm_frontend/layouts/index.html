@@ -1,0 +1,22 @@
+{{- define "main" -}}
+<main>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <h1>{{ .Site.Params.hero.text }}</h1>
+    <a href="/proces">{{ .Site.Params.hero.linkText }}</a>
+  </section>
+  <!-- Content Section -->
+  <section class="about-section">
+    {{ .Content }}
+  </section>
+  <!-- Active Post Section -->
+  <section class="active-post">
+  </section>
+  <!-- Past Posts Section -->
+  <section></section>
+  <!-- Mentors Section -->
+  <section></section>
+  <!-- Student List Section -->
+  <section></section>
+</main>
+{{- end -}}

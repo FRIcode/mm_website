@@ -1,0 +1,25 @@
+<header>
+  <div class="header-links">
+    <a href="{{ .Site.BaseURL }}">
+      <img src="{{ .Site.Params.header.logo | relURL }}" alt="Logo"/>
+      <div class="links">{{ .Site.Params.header.logoText }}</div>
+    </a>
+  </div>
+  {{ with .Site.Menus.main }}
+    {{ $navbar_len := len . }}
+      <!-- Desktop Menu -->
+      <div class="menu-dekstop">
+        {{- range $i, $nav_item := . -}}
+          <a class="menu-item menu-link" href="{{ $nav_item.URL}}" title="{{$nav_item.Name}}">{{ $nav_item.Name }}</a>
+        {{- end -}}
+      </div>
+      {{ range $i, $nav_item := . }}
+        <a class="nav-item nav-link" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+          {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
+        </a>
+        {{ if ne (add $i 1) $navbar_len }}
+          <span class="nav-item navbar-text mx-1">/</span>
+        {{ end }}
+      {{ end }}
+  {{ end }}
+</header>

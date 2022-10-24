@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "sl"
+title = "Multidisciplinarni projekti na UL"
+
+
+[params]
+  [params.header]
+    logoText = 'Multidisciplinaren.si'
+    logo = 'images/logo.png'
+  [params.hero]
+    text = "Multidisciplinarna, projektno zasnovana učna izkušnja magistrskih študentov različnih fakultet in programov UL"
+    linkText = "Kako poteka sodelovanje"
+  [params.footer]
+    text = "Za več vprašanj smo vam na voljo na"
+    mail = "info@multidisciplinaren.si"
+
+
+[menu]
+  [[menu.main]]
+    name = "Proces"
+    url = "/proces"
+    weight = 1
+  [[menu.main]]
+    name = "Za študente"
+    url = "/za-studente"
+    weight = 2
+  [[menu.main]]
+    name = "Za podjetja"
+    url = "/za-podjetja.pdf"
+    weight = 3
+  [[menu.main]]
+    name = "Galerija"
+    url = "/galerija"
+    weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true  # allow raw HTML in markdown files

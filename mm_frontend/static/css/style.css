@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('../fonts/SuisseIntl-Regular.woff2') format('woff2'),
+    url('../fonts/SuisseIntl-Regular.woff') format('woff'),
+    url('../fonts/SuisseIntl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tiempos Fine';
+    src: url('../fonts/TiemposFine-Medium.woff2') format('woff2'),
+    url('../fonts/TiemposFine-Medium.woff') format('woff'),
+    url('../fonts/TiemposFine-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('../fonts/SuisseIntl-Medium.woff2') format('woff2'),
+    url('../fonts/SuisseIntl-Medium.woff') format('woff'),
+    url('../fonts/SuisseIntl-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body { font-family: 'Suisse Intl', sans-serif; }
+
+h1,h2,h3,h4,h5 { font-family: 'Tiempos Fine', sans-serif; }
+
+.links { font-family: 'Suisse Intl', sans-serif; }
+
+.container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container > header, main, footer {
+    width: 100%;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: auto;
+}
+
+.header-links > a {
+    text-decoration: none;
+
+}
+
+.hero-section > a {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Suisse Intl Medium', sans-serif;
+}
