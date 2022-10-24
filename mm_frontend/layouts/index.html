@@ -3,17 +3,28 @@
   <!-- Hero Section -->
   <section class="hero-section">
     <h1>{{ .Site.Params.hero.text }}</h1>
-    <a href="/proces">{{ .Site.Params.hero.linkText }}</a>
+    <a class="links" href="/proces">{{ .Site.Params.hero.linkText }}</a>
   </section>
   <!-- Content Section -->
   <section class="about-section">
-    {{ .Content }}
+    <h3>{{ .Content }}</h3>
   </section>
   <!-- Active Post Section -->
   <section class="active-post">
+    <h2>Izziv v teku</h2>
+    <hr class="divider"/>
+
+    {{- partial "post_item.html" . -}}
+
   </section>
   <!-- Past Posts Section -->
-  <section></section>
+  <section>
+    <h2>Pretekle rešitve</h2>
+    <hr class="divider"/>
+
+    {{- partial "post_list.html" . -}}
+
+  </section>
   <!-- Mentors Section -->
   <section></section>
   <!-- Student List Section -->
