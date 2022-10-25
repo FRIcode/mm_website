@@ -26,8 +26,16 @@
 
   </section>
   <!-- Mentors Section -->
-  <section></section>
+  <section>
+    <h3>Multidisciplinarni projekt poteka v sodelovanju različnih mentorjev Univerze v Ljubljani:</h3>
+    {{- partial "mentors.html" . -}}
+  </section>
   <!-- Student List Section -->
-  <section></section>
+  <section>
+    <h3>Sodelujoči študenti</h3>
+    <div class="student-list">
+      {{- partial "students.html" . -}}
+    </div>
+  </section>
 </main>
 {{- end -}}

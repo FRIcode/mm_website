@@ -8,24 +8,27 @@
       </a>
     </div>
     <div class="navbar">
-    {{ with .Site.Menus.main }}
-    {{ $navbar_len := len . }}
+      {{ with .Site.Menus.main }}
+      {{ $navbar_len := len . }}
       {{- range $i, $nav_item := . -}}
-        <a href="{{ $nav_item.URL}}" title="{{$nav_item.Name}}">{{ $nav_item.Name }}</a>
+      <a href="{{ $nav_item.URL}}" title="{{$nav_item.Name}}">{{ $nav_item.Name }}</a>
       {{- end -}}
-    {{ end }}
+      {{ end }}
     </div>
   </div>
   <!-- Mobile Menu -->
   <div class="menu-mobile">
-    <input type="checkbox" class="toggler">
     <div class="header-links">
       <a href="{{ .Site.BaseURL }}">
         <img src="{{ .Site.Params.header.logo | relURL }}" alt="Logo"/>
         <div class="links">{{ .Site.Params.header.logoText }}</div>
       </a>
     </div>
-    <div class="hamburger"><div></div></div>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" id="open-menu">
+      <label for="open-menu" style="cursor: pointer" class="hamburger">
+          <div></div>
+      </label>
       <div class="menu">
         <div>
           <div>
@@ -41,4 +44,5 @@
         </div>
       </div>
     </div>
+  </div>
 </header>
