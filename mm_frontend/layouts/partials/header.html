@@ -18,11 +18,27 @@
   </div>
   <!-- Mobile Menu -->
   <div class="menu-mobile">
-    {{ with .Site.Menus.main }}
-    {{ $navbar_len := len . }}
-      {{- range $i, $nav_item := . -}}
-        <a class="mobile-item" href="{{ $nav_item.URL}}" title="{{$nav_item.Name}}">{{ $nav_item.Name }}</a>
-      {{- end -}}
-    {{ end }}
-  </div>
+    <input type="checkbox" class="toggler">
+    <div class="header-links">
+      <a href="{{ .Site.BaseURL }}">
+        <img src="{{ .Site.Params.header.logo | relURL }}" alt="Logo"/>
+        <div class="links">{{ .Site.Params.header.logoText }}</div>
+      </a>
+    </div>
+    <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              {{ with .Site.Menus.main }}
+              {{ $navbar_len := len .}}
+              {{ range $i, $nav_item := .}}
+              <li><a href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">{{ $nav_item.Name }}</a></li>
+              {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 </header>
