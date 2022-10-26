@@ -1,4 +1,6 @@
 ---
+title: "Proces"
+date: 2022-04-21T15:15:54+02:00
 draft: false
 ---
 

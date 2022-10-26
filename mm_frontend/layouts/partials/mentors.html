@@ -1,5 +1,7 @@
-{{ range .Site.Params.mentors }}
-<div>
-  <div>{{ .name }}</div><div>{{ .faculty }}</div>
+<div class="mentors-list">
+  {{ range .Site.Params.mentors }}
+    <div class="mentors-item">
+      <div class="mentors-name">{{ .name }}</div><div class="mentors-fac">{{ .faculty }}</div>
+    </div>
+  {{ end }}
 </div>
-{{ end }}

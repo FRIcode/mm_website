@@ -1,5 +1,14 @@
 {{- define "main" -}}
 <main>
+  <!-- Special Background for Home -->
+  <style>
+      body {
+          background: url('../images/background.png'),
+          rgba(119, 129, 226, 1);
+          background-position: 0 0, 0 0 !important;
+          background-size: 100% auto, 100% !important;
+      }
+  </style>
   <!-- Hero Section -->
   <section class="hero-section">
     <h1>{{ .Site.Params.hero.text }}</h1>
@@ -26,7 +35,7 @@
 
   </section>
   <!-- Mentors Section -->
-  <section>
+  <section class="mentors">
     <h3>Multidisciplinarni projekt poteka v sodelovanju različnih mentorjev Univerze v Ljubljani:</h3>
     {{- partial "mentors.html" . -}}
   </section>

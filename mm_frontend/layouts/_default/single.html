@@ -1,0 +1,24 @@
+{{- define "main" -}}
+<main>
+  <!-- Title and Abstract -->
+  <section>
+    <hr class="divider"/>
+    <div class="post-item">
+      <div class="post-item-left">
+        <div class="post-item-left-years">{{ .Params.yearStart }}/{{ .Params.yearEnd }}</div>
+        <div class="post-item-left-title">{{ .Params.Title }}</div>
+      </div>
+      <div class="post-item-right">
+        <div class="post-item-right-head">IZZIV</div>
+        <div class="post-item-right-abstract">{{ .Params.abstract }}</div>
+      </div>
+    </div>
+    <hr class="divider"/>
+  </section>
+
+  <!-- Video predstavitve -->
+  <section>
+
+  </section>
+</main>
+{{- end -}}

@@ -1,17 +1,14 @@
 {{ $postList := where (where .Site.RegularPages "Type" "posts") ".Params.active" "==" true}}
 {{ range $postList }}
-<div class="post-item">
+<div class="post-item" style="min-height: 350px">
   <div class="post-item-left">
-    <div class="post-item-left-years">{{ .Params.yearStart }}/{{ .Params.yearEnd }}</div>
-    <div class="post-item-left-title">{{ .Params.Title }}</div>
+    <div class="post-item-meta">{{ .Params.yearStart }}/{{ .Params.yearEnd }}</div>
+    <h4 class="post-item-left-title">{{ .Params.Title }}</h4>
   </div>
   <div class="post-item-right">
-    <div class="post-item-right-head">IZZIV</div>
-    <div class="post-item-right-abstract">{{ .Params.abstract }}</div>
-    <div class="post-item-right-link">
-      <a href="{{ .Permalink }}">Več o projektu <i class="fa-solid fa-arrow-up-right"></i></a>
-    </div>
+    <div class="post-item-meta">IZZIV</div>
+    <p class="post-item-right-abstract">{{ .Params.abstract }}</p>
+    <a class="links post-item-link" href="{{ .Permalink }}">Več o projektu &#8599;</a>
   </div>
 </div>
-<hr class="divider"/>
 {{ end }}

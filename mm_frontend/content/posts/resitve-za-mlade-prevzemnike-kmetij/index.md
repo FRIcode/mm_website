@@ -1,5 +1,5 @@
 ---
-title: "Resitve Za Mlade Prevzemnike Kmetij"
+title: "Rešitve za mlade prevzemnike kmetij"
 date: 2022-10-24T19:22:42+02:00
 yearStart: 2022
 yearEnd: 2023

@@ -1,22 +1,59 @@
 {{- define "main" -}}
-<!-- Title and Abstract -->
-<section>
+<main>
+  <!-- Title and Abstract -->
   <hr class="divider"/>
-  <div class="post-item">
-    <div class="post-item-left">
-      <div class="post-item-left-years">{{ .Params.yearStart }}/{{ .Params.yearEnd }}</div>
-      <div class="post-item-left-title">{{ .Params.Title }}</div>
+  <section class="single-post-top">
+    <div class="post-item single-page">
+      <div class="post-item-left">
+        <div class="post-item-meta">{{ .Params.yearStart }}/{{ .Params.yearEnd }}</div>
+        <h4 class="post-item-left-title">{{ .Params.Title }}</h4>
+      </div>
+      <div class="post-item-right">
+        <div class="post-item-meta">IZZIV</div>
+        <p class="post-item-right-abstract">{{ .Params.abstract }}</p>
+      </div>
     </div>
-    <div class="post-item-right">
-      <div class="post-item-right-head">IZZIV</div>
-      <div class="post-item-right-abstract">{{ .Params.abstract }}</div>
-    </div>
-  </div>
+  </section>
   <hr class="divider"/>
-</section>
 
-<!-- Video predstavitve -->
-<section>
+  {{- with .Params.video_section -}}
+  <!-- Video predstavitve -->
+  <section>
 
-</section>
+  </section>
+  {{- end -}}
+
+  {{- with .Params.results_section -}}
+  <!-- Results -->
+  <section>
+
+  </section>
+  {{- end -}}
+
+  {{- with .Params.carousel_section -}}
+  <!-- Gallery carousel -->
+  <section>
+
+  </section>
+  {{- end -}}
+
+  {{- with .Params.partners -}}
+  <!-- Partners section -->
+  <section>
+
+  </section>
+  {{- end -}}
+
+  {{- with .Params.students -}}
+  <!-- Students section -->
+  <section>
+    {{- range $.Site.Data.custom_data.students -}}
+    <div class="student-item">
+      <div class="student-name">{{ .name }}</div><div class="student-faculty">{{ .faculty }}</div>
+    </div>
+    {{- end -}}
+  </section>
+  {{- end -}}
+
+</main>
 {{- end -}}
