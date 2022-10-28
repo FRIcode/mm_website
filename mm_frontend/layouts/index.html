@@ -43,7 +43,7 @@
   <section>
     <h3>Sodelujoči študenti</h3>
     <div class="student-list">
-      {{- partial "students.html" . -}}
+      {{- partial "students.html" $.Site.Data.all_students.students -}}
     </div>
   </section>
 </main>

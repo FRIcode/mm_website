@@ -16,44 +16,60 @@
   </section>
   <hr class="divider"/>
 
-  {{- with .Params.video_section -}}
+  {{- with .Params.ytLink -}}
   <!-- Video predstavitve -->
   <section>
-
+    YT Emmbed
   </section>
+  <hr class="divider"/>
   {{- end -}}
 
-  {{- with .Params.results_section -}}
-  <!-- Results -->
-  <section>
+    <!-- Results -->
+  {{ if .Resources.GetMatch "info.json" }}
+    {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
+    {{ $info := getJSON "content" $infoResource }}
+    {{ with $info  }}
+      <section>
+        {{ $info.results }}
+      </section>
+      <hr class="divider"/>
+    {{ end }}
+  {{ end }}
 
-  </section>
-  {{- end -}}
-
-  {{- with .Params.carousel_section -}}
   <!-- Gallery carousel -->
+  {{ if .Page.Resources.ByType "image" }}
   <section>
-
+    {{ range .Page.Resources.ByType "image"}}
+      {{ .RelPermalink }}<br>
+    {{ end }}
   </section>
-  {{- end -}}
+  <hr class="divider"/>
+  {{ end }}
 
-  {{- with .Params.partners -}}
-  <!-- Partners section -->
-  <section>
+  <!-- Partners and info -->
+  {{ if .Resources.GetMatch "info.json" }}
+    {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
+    {{ $info := getJSON "content" $infoResource }}
+    {{ with $info  }}
+      <section>
+        {{ $info.faculties }}
+        {{ $info.opinions }}
+      </section>
+      <hr class="divider"/>
+    {{ end }}
+  {{ end }}
 
-  </section>
-  {{- end -}}
 
-  {{- with .Params.students -}}
   <!-- Students section -->
-  <section>
-    {{- range $.Site.Data.custom_data.students -}}
-    <div class="student-item">
-      <div class="student-name">{{ .name }}</div><div class="student-faculty">{{ .faculty }}</div>
-    </div>
-    {{- end -}}
-  </section>
-  {{- end -}}
+  {{ if .Resources.GetMatch "info.json" }}
+    {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
+    {{ $info := getJSON "content" $infoResource }}
+    {{ with $info  }}
+      <section>
+        {{- partial "students.html" $info.students -}}
+      </section>
+    {{ end }}
+  {{ end }}
 
 </main>
 {{- end -}}

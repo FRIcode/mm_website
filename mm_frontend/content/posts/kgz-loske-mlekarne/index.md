@@ -5,14 +5,13 @@ yearStart: 2014
 yearEnd: 2015
 abstract: "Pridobiti vpogled v možnosti za drugačne distribucijske poti in razvoj izdelkov, ki odstopajo od večje konkurence. Izvesti preliminarne raziskave nakupnih navad in preferenc porabnikov ter ovrednotiti vizualno podobo blagovnih znamk Loške mlekarne in matičnega podjetja Kmetijsko-gozdarske zadruge Škofja Loka."
 draft: false
+ytLink: https://www.youtube.com/watch?v=Dzdg-0vldW4
 resources:
 - src: predstavitve.png
-  name: "Predstavitve študentov"
   params:
-    caption: ""
+    alt: "Predstavitve študentov"
 - src: studenti.png
-  name: "Predstavitve študentov"
   params:
-    caption: ""
+    alt: "Fotka"
 ---
 

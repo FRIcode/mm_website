@@ -1,4 +1,4 @@
-{{- range $.Site.Data.custom_data.students -}}
+{{- range . -}}
 <div class="student-item">
   <div class="student-name">{{ .name }}</div><div class="student-faculty">{{ .faculty }}</div>
 </div>

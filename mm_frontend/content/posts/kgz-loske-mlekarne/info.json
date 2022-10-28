@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "title": "Loški edamec",
+      "pitch": "_blank_",
+      "tutorial": "_blank_",
+      "poster": "_blank_"
+    }
+  ],
+  "students": [
+    {
+      "name": "Tanja Dmitrovic",
+      "faculty": "FUI"
+    },
+    {
+      "name": "Tanja Dmitrovic",
+      "faculty": "ALUO"
+    }
+  ],
+  "faculties": [ "UL Ekonomska fakulteta", "UL Akademija za likovno umetnost in oblikovanje" ],
+  "opinions": [
+    {
+      "author": "Študentka z ALUO",
+      "text": "Vsebina projekta je bila zelo zanimiva in velik izziv. Naučil/a sem se, da je izredno težko delati v skupini, še težje pa, ko so pridruženi še študenti z drugega faksa, ki so navajeni povsem drugega načina dela."
+    }
+  ],
+  "mentors": [
+    {
+      "name": "prof. dr. Tanja Dmitrović",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_programm": "magistrski program"
+    }
+  ]
+}
