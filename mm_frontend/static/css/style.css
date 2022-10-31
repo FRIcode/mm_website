@@ -29,14 +29,25 @@
     font-display: swap;
 }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Tiempos Fine', sans-serif; }
-h1 { font-size: 64px; line-height: 1.2; }
-h2 { font-size: 54px; line-height: normal; }
-h3 { font-size: 38px; line-height: 1.25; }
-h4 { font-size: 32px; line-height: 1.2; }
-h5 { font-size: 24px; line-height: 1.4; }
-p { font-family: 'Suisse Intl', sans-serif; font-size: 24px; line-height: 1.4; margin: 0; }
-.links { font-family: 'Suisse Intl Medium', sans-serif; font-size: 24px; line-height: 1.3; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Tiempos Fine', sans-serif; margin: 0; }
+h1 { font-size: 2.667rem; line-height: 1.2; }
+h2 { font-size: 2.25rem; line-height: normal; }
+h3 { font-size: 1.583rem; line-height: 1.25; }
+h4 { font-size: 1.333rem; line-height: 1.2; }
+h5 { font-size: 1rem; line-height: 1.4; }
+p { font-family: 'Suisse Intl', sans-serif; line-height: 1.4; margin: 0; font-size: 1rem; }
+.links { font-family: 'Suisse Intl Medium', sans-serif; line-height: 1.3; }
+.metas { font-family: 'Suisse Intl', sans-serif; font-size: 0.542rem; line-height: 1.3; letter-spacing: 2px; }
+.p3 { font-family: 'Suisse Intl', sans-serif; font-size: 0.667rem;  line-height:1.4;}
+
+ul, il { padding: 0; margin: 0;}
+
+.mb-1 { margin-bottom: 1.042rem; }
+.mb-2 { margin-bottom: 1.875rem; }
+.mb-2_5 { margin-bottom: 2.5rem; }
+.mb-3 { margin-bottom: 3.5rem;}
+
+html { font-size: 24px; }
 
 
 html,body {
@@ -94,13 +105,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 2rem 8%;
     width: 84%;
     margin: auto;
-    gap: 60px;
 }
 
 header .scrolled {
+    padding: 1rem 8%;
+    transform: scale(1); /* you need a scale here to allow it to transition in both directions */
+    transition: 0.15s all ease;
     background: rgba(205,208,244, 0.85);
 }
 
@@ -124,7 +137,7 @@ header .scrolled {
     justify-content: space-between;
     align-items: center;
     width: 92%;
-    padding: 20px 4%;
+    padding: 10px 4%;
 }
 
 .menu-mobile .header-links {
@@ -225,7 +238,7 @@ header .scrolled {
     background-color: #CDD0F4;
     border-radius: 50%;
     width: 200vw;
-    height: 200vw;
+    height: 200vh;
     display: flex;
     flex: none;
     align-items: center;
@@ -256,12 +269,12 @@ header .scrolled {
 /* ============== MAIN ================ */
 
 section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 main {
-    padding-top: 7.5rem;
+    padding-top: 5rem;
     width: 100%;
     margin: auto;
 }
@@ -327,6 +340,8 @@ main {
 
 .divider {
     width: 100%;
+    padding: 0;
+    margin: 0;
     border-color: black;
 }
 
@@ -414,23 +429,123 @@ footer {
 /* ============== SINGLE POST PAGE ================ */
 
 .single-post-top {
-    padding-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 520px;
 }
 
-.single-page.post-item {
+.post-yt-section, .post-gallery-section {
+    padding-top: 3.5rem;
 }
 
+.post-section-title {
+    margin-top: 1.063rem;
+    margin-bottom: 0rem;
+}
 
+.post-video-embed {
+    margin: auto;
+    width: 85%;
+    aspect-ratio: 16/9;
+}
 
+.post-video-embed iframe { 
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    resize: both;
+    overflow: auto;
+}
+
+.post-results {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1.667rem;
+}
+
+.results-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px
+}
+
+.results-title {
+    margin-bottom: 0.5rem;
+}
+
+.results-item {
+    font-family: 'Tiempos Fine', sans-serif;
+    color: black;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.post-opinon {
+    margin-bottom: 1.5rem;
+}
+
+.post-opinion-text {
+    font-family: 'Tiempos Fine', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+}
+
+.post-opinion-author {
+    font-family: 'Suisse Intl', sans-serif;
+    font-size: 0.667rem;
+    line-height: 1.3;
+}
+
+.post-students {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0.5rem;
+}
+
+.post-student-item {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    gap: 0.25rem;
+}
+
+/* ============== GALLERY PAGE ================ */
+
+.big-gallery {
+    display: flex;
+    width: 100%;
+    gap: 1.75rem;
+    flex-direction: row;
+}
+
+.gallery-item {
+    display: flex;
+    height: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    object-fit: cover;
+}
 
 
 /* ============== MOBILE ================ */
 
 @media screen and (max-width: 768px) {
+    html { font-size: 18px; }
     h1 { font-size: 28px; }
     h2 { font-size: 24px; }
     h3 { font-size: 22px; }
@@ -446,7 +561,13 @@ footer {
     .mentors-name { font-size: 18px; }
     .footer { min-height: 200px; }
     .footer-text { font-size: 22px; line-height: 1.25; }
-
+    .post-video-embed  { width: 100%; }
     .single-post-top { min-height: 390px; }
+    .post-results { grid-template-columns: 1fr 1fr;}
+    .results-item { font-size: 13px; }
+    .post-info { flex-wrap: wrap; }
+    .post-info-left, .post-info-partners { margin-bottom: 1.875rem; }
+    .post-students { grid-template-columns: 1fr 1fr;}
+
 }
 

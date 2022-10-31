@@ -20,7 +20,7 @@
   </section>
   <!-- Active Post Section -->
   <section class="active-post">
-    <h2>Izziv v teku</h2>
+    <h2 class="mb-2">Izziv v teku</h2>
     <hr class="divider"/>
 
     {{- partial "post_item.html" . -}}
@@ -28,7 +28,7 @@
   </section>
   <!-- Past Posts Section -->
   <section>
-    <h2>Pretekle rešitve</h2>
+    <h2 class="mb-2">Pretekle rešitve</h2>
     <hr class="divider"/>
 
     {{- partial "post_list.html" . -}}
@@ -36,12 +36,15 @@
   </section>
   <!-- Mentors Section -->
   <section class="mentors">
-    <h3>Multidisciplinarni projekt poteka v sodelovanju različnih mentorjev Univerze v Ljubljani:</h3>
+    <h3 class="mb-2_5">Multidisciplinarni projekt poteka v sodelovanju različnih mentorjev Univerze v Ljubljani:</h3>
     {{- partial "mentors.html" . -}}
   </section>
+
+  <hr class="divider"/>
+
   <!-- Student List Section -->
   <section>
-    <h3>Sodelujoči študenti</h3>
+    <h3 class="mb-2">Sodelujoči študenti</h3>
     <div class="student-list">
       {{- partial "students.html" $.Site.Data.all_students.students -}}
     </div>

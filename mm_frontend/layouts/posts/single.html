@@ -18,8 +18,11 @@
 
   {{- with .Params.ytLink -}}
   <!-- Video predstavitve -->
-  <section>
-    YT Emmbed
+  <div class="post-section-title metas">VIDEO PREDSTAVITEV</div>
+  <section class="post-yt-section">
+    <div class="post-video-embed">
+      <iframe src="{{ . }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </section>
   <hr class="divider"/>
   {{- end -}}
@@ -29,8 +32,20 @@
     {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
     {{ $info := getJSON "content" $infoResource }}
     {{ with $info  }}
+      <div class="post-section-title metas">REZULTATI PROJEKTOV</div>
       <section>
-        {{ $info.results }}
+        <div class="post-results">
+          {{ range $info.results }}
+            <div class="post-results-item">
+              <h5 class="results-title">{{ .title }}</h5>
+              <div class="results-list">
+                {{ with .pitch }}<a class="results-item" href="{{ . | relURL}}">Pitch</a>{{ end }}
+                {{ with .tutorial }}<a class="results-item" href="{{ . | relURL}}">Tutorial</a>{{ end }}
+                {{ with .poster }}<a class="results-item" href="{{ . | relURL}}">Poster</a>{{ end }} 
+              </div>
+            </div>
+          {{ end }}
+        </div>
       </section>
       <hr class="divider"/>
     {{ end }}
@@ -38,7 +53,8 @@
 
   <!-- Gallery carousel -->
   {{ if .Page.Resources.ByType "image" }}
-  <section>
+  <div class="post-section-title metas">FOTOGRAFIJE</div>
+  <section class="post-gallery-section">
     {{ range .Page.Resources.ByType "image"}}
       {{ .RelPermalink }}<br>
     {{ end }}
@@ -51,9 +67,39 @@
     {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
     {{ $info := getJSON "content" $infoResource }}
     {{ with $info  }}
-      <section>
-        {{ $info.faculties }}
-        {{ $info.opinions }}
+      <section class="post-info">
+        <div class="post-info-left">
+          <div class="post-info-partners mb-3">
+            <div class="metas mb-1">ČLANICE</div>
+            {{ range $info.faculties }}
+              <h5>{{ . }}</h5>
+            {{ end }}
+          </div>
+          <div class="post-info-mentors">
+            <div class="metas mb-1">NOSILCI</div>
+            {{ range $info.mentors }}
+            <div class="post-mentor-item">
+              <h5 class="post-mentor-name">{{.name}}</h5>
+              <div class="post-mentor-info p3">
+                Predmet: {{.subject}},<br>{{.faculty_program}}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="post-info-right">
+            <div class="metas mb-1">MNENJA SODELUJOČIH</div>
+            {{ range $info.opinions }}
+            <div class="post-opinion">
+              <div class="post-opinion-text">
+                {{ .text }}
+              </div>
+              <div class="post-opinion-author">
+                - {{ .author }}
+              </div>
+            </div>
+            {{ end }}
+        </div>
       </section>
       <hr class="divider"/>
     {{ end }}
@@ -66,7 +112,19 @@
     {{ $info := getJSON "content" $infoResource }}
     {{ with $info  }}
       <section>
-        {{- partial "students.html" $info.students -}}
+        <div class="metas mb-1">ŠTUDENTI</div>
+        <div class="post-students">
+          {{ range $info.student_groups }}
+            <div class="post-students-group">
+              <div class="student-name">{{ .group }}</div>
+              {{ range .students }}
+              <div class="post-student-item">
+                <div class="student-name">{{.name}}</div><div class="student-faculty">{{.faculty}}</div>
+              </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
       </section>
     {{ end }}
   {{ end }}

@@ -5,16 +5,116 @@
       "pitch": "_blank_",
       "tutorial": "_blank_",
       "poster": "_blank_"
-    }
-  ],
-  "students": [
-    {
-      "name": "Tanja Dmitrovic",
-      "faculty": "FUI"
     },
     {
-      "name": "Tanja Dmitrovic",
-      "faculty": "ALUO"
+      "title": "Loški edamec",
+      "pitch": "_blank_",
+      "tutorial": "_blank_",
+      "poster": "_blank_"
+    },
+    {
+      "title": "Loški edamec",
+      "pitch": "_blank_",
+      "tutorial": "_blank_",
+      "poster": "_blank_"
+    },
+    {
+      "title": "Loški edamec",
+      "pitch": "_blank_",
+      "tutorial": "_blank_",
+      "poster": "_blank_"
+    },
+    {
+      "title": "Loški edamec",
+      "pitch": "_blank_",
+      "tutorial": "_blank_",
+      "poster": "_blank_"
+    },
+    {
+      "title": "Loški edamec",
+      "pitch": "_blank_",
+      "tutorial": "_blank_",
+      "poster": "_blank_"
+    }
+  ],
+  "student_groups": [
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "FUI"
+        },
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "FUI"
+        },
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "FUI"
+        },
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "FUI"
+        },
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "FUI"
+        }
+      ]
+    },
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "FUI"
+        },
+        {
+          "name": "Tanja Dmitrovic",
+          "faculty": "ALUO"
+        }
+      ]
     }
   ],
   "faculties": [ "UL Ekonomska fakulteta", "UL Akademija za likovno umetnost in oblikovanje" ],
@@ -28,7 +128,7 @@
     {
       "name": "prof. dr. Tanja Dmitrović",
       "subject": "Razvoj in trženje novih izdelkov",
-      "faculty_programm": "magistrski program"
+      "faculty_program": "magistrski program"
     }
   ]
 }
