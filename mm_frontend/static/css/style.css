@@ -29,26 +29,38 @@
     font-display: swap;
 }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Tiempos Fine', sans-serif; margin: 0; }
-h1 { font-size: 2.667rem; line-height: 1.2; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Tiempos Fine', sans-serif; margin: 0; font-weight: normal; }
+h1 {
+    font-size: 2.667rem;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    width: 90%;
+    margin: auto;
+}
 h2 { font-size: 2.25rem; line-height: normal; }
 h3 { font-size: 1.583rem; line-height: 1.25; }
 h4 { font-size: 1.333rem; line-height: 1.2; }
 h5 { font-size: 1rem; line-height: 1.4; }
 p { font-family: 'Suisse Intl', sans-serif; line-height: 1.4; margin: 0; font-size: 1rem; }
-.links { font-family: 'Suisse Intl Medium', sans-serif; line-height: 1.3; }
+.links { font-family: 'Suisse Intl', sans-serif; line-height: 1.3; }
 .metas { font-family: 'Suisse Intl', sans-serif; font-size: 0.542rem; line-height: 1.3; letter-spacing: 2px; }
 .p3 { font-family: 'Suisse Intl', sans-serif; font-size: 0.667rem;  line-height:1.4;}
 
-ul, il { padding: 0; margin: 0;}
+ul, li { padding: 0; margin: 0;}
 
+.mb-0 { margin-bottom: 0 !important; }
 .mb-1 { margin-bottom: 1.042rem; }
 .mb-2 { margin-bottom: 1.875rem; }
 .mb-2_5 { margin-bottom: 2.5rem; }
 .mb-3 { margin-bottom: 3.5rem;}
 
-html { font-size: 24px; }
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 1.042rem; }
+.mt-2 { margin-top: 1.875rem; }
+.mt-2_5 { margin-top: 2.5rem; }
+.mt-3 { margin-top: 3.5rem; }
 
+html { font-size: 24px; }
 
 html,body {
     width: 100%;
@@ -86,6 +98,7 @@ header {
     position: fixed;
     width: inherit;
     height: 100px;
+    z-index: 99;
 }
 
 .header-links { width: auto;}
@@ -98,6 +111,10 @@ header {
     color: black;
     font-family: 'Suisse Intl Medium', sans-serif;
     text-decoration: none;
+}
+
+.logo-text {
+    font-size: 18px;
 }
 
 .menu-dekstop {
@@ -114,7 +131,7 @@ header .scrolled {
     padding: 1rem 8%;
     transform: scale(1); /* you need a scale here to allow it to transition in both directions */
     transition: 0.15s all ease;
-    background: rgba(205,208,244, 0.85);
+    background: rgba(205,208,244, 0.90);
 }
 
 .navbar {
@@ -269,8 +286,7 @@ header .scrolled {
 /* ============== MAIN ================ */
 
 section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
 }
 
 main {
@@ -290,8 +306,8 @@ main {
     font-family: 'Suisse Intl Medium', sans-serif;
 }
 
-.about-section h3, .mentors h3 {
-    width: 90%;
+section h3 {
+    width: 80%;
     margin-left: 0;
 }
 
@@ -301,17 +317,17 @@ main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 35px;
-    margin-top: 30px;
+    justify-content: start;
+    gap: 6rem;
+    margin-top: 3rem;
 }
 
 .post-item-right {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
-    flex: 0 1 790px;
+    justify-content: start;
+    flex: 0 1 100%;
     gap: 20px;
 }
 
@@ -334,14 +350,14 @@ main {
 }
 
 .post-item-link {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
 .divider {
     width: 100%;
+    margin-top: 100px;
     padding: 0;
-    margin: 0;
     border-color: black;
 }
 
@@ -438,9 +454,53 @@ footer {
     padding-top: 3.5rem;
 }
 
+.post-gallery-section {
+    height: 500px;
+}
+
+.post-gallery-carousel {
+    height: 100%;
+}
+
+.flickity-prev-next-button {
+    top: -3.5rem;
+    right: 20px;
+}
+
+.flickity-prev-next-button.previous {
+    right: 80px;
+    left: auto;
+}
+
+.flickity-button {
+    background: none;
+}
+
+.flickity-button:hover {
+    background: none;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* initial height */
+.carousel-cell {
+    opacity: 0.5;
+    transition: all .3s ease;
+    margin-right: 1rem;
+}
+
+/* selected size */
+.carousel-cell.is-selected { opacity: 1.0; }
+
+
 .post-section-title {
     margin-top: 1.063rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 .post-video-embed {
@@ -456,6 +516,8 @@ footer {
     resize: both;
     overflow: auto;
 }
+
+
 
 .post-results {
     display: grid;
@@ -485,10 +547,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 6rem;
     flex-wrap: nowrap;
 }
 
-.post-opinon {
+.post-info-left {
+    flex: 1 0 30%;
+}
+
+.post-opinion {
     margin-bottom: 1.5rem;
 }
 
@@ -526,10 +593,13 @@ footer {
     display: flex;
     width: 100%;
     gap: 1.75rem;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .gallery-item {
+    flex: 0 1 30%;
     display: flex;
     height: auto;
     align-items: center;
@@ -542,10 +612,62 @@ footer {
 }
 
 
+/*  ============== ZA STUDENTE PAGE ================  */
+
+.sodelovanje-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sodelovanje-item > .item-right {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: start;
+    flex: 0 1 800px;
+    gap: 20px;
+}
+
+.sodelovanje-item > .item-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 1 376px;
+    gap: 20px;
+}
+
+.sodelovanje-item > * > .item-meta {
+    text-transform: uppercase;
+    font-family: "Suisse Intl", sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.sodelovanje-item > .item-right > .item-textgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sodelovanje-item > .item-right > .item-textgroup > .item-text {
+    margin-bottom: 1rem;
+}
+
+.sodelovanje-item > .item-title {
+    margin: 0;
+}
+
+
 /* ============== MOBILE ================ */
 
 @media screen and (max-width: 768px) {
-    html { font-size: 18px; }
+    html { font-size: 16px; }
     h1 { font-size: 28px; }
     h2 { font-size: 24px; }
     h3 { font-size: 22px; }
@@ -557,7 +679,7 @@ footer {
     .menu-dekstop { display: none; }
     .header-links { z-index: 2; }
     .hero-section { padding-top: 180px; }
-    .post-item, .mentors-item { flex-wrap: wrap; gap: 10px; }
+    .post-item, .mentors-item, .sodelovanje-item { flex-wrap: wrap; gap: 10px; }
     .mentors-name { font-size: 18px; }
     .footer { min-height: 200px; }
     .footer-text { font-size: 22px; line-height: 1.25; }
@@ -565,9 +687,8 @@ footer {
     .single-post-top { min-height: 390px; }
     .post-results { grid-template-columns: 1fr 1fr;}
     .results-item { font-size: 13px; }
-    .post-info { flex-wrap: wrap; }
+    .post-info { flex-wrap: wrap; gap: 1rem; }
     .post-info-left, .post-info-partners { margin-bottom: 1.875rem; }
     .post-students { grid-template-columns: 1fr 1fr;}
-
 }
 

@@ -1,6 +1,6 @@
 {{ $postList := where (where .Site.RegularPages "Type" "posts") ".Params.active" "==" true}}
 {{ range $postList }}
-<div class="post-item" style="min-height: 350px">
+<div class="post-item">
   <div class="post-item-left">
     <div class="post-item-meta">{{ .Params.yearStart }}/{{ .Params.yearEnd }}</div>
     <h4 class="post-item-left-title">{{ .Params.Title }}</h4>

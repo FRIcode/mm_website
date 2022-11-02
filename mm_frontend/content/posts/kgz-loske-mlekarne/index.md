@@ -13,5 +13,11 @@ resources:
 - src: studenti.png
   params:
     alt: "Fotka"
+- src: studenti_1.png
+  params:
+  alt: "Fotka"
+- src: studenti_2.png
+  params:
+  alt: "Fotka"
 ---
 
