@@ -1,9 +1,10 @@
 {{- define "main" -}}
 <main>
+  <style> .footer.divider { margin-top: 3rem;}</style>
   <!-- Title and Abstract -->
   <section>
     {{ .Content }}
-    <div class="metas mt-3 mb-1">ŽE VKLJUČENI ŠTUDENTI</div>
+    <div class="metas mt-4 mb-1">ŽE VKLJUČENI ŠTUDENTI</div>
     <div>
       <h5>Študenti UL ALUO obveznih predmetov »Upravljanje v oblikovanju I in II« ste že vključeni v projekt.</h5>
       <h5>Študenti UL BF izbirnega predmeta »Trženje v agroživilskih in lesnih verigah« ste že vključeni v projekt.</h5>
@@ -13,8 +14,8 @@
   </section>
   <!-- Sodelovanje -->
   <section>
-    <h2 class="mb-1">Kako lahko sodelujem</h2>
-    <hr class="divider mt-0"/>
+    <h2>Kako lahko sodelujem</h2>
+    <hr class="divider mt-1"/>
     <div class="sodelovanje-item">
       <div class="item-left">
         <div class="item-meta">študenti</div>
@@ -24,14 +25,14 @@
       <div class="item-right">
         <div class="item-meta mb-1">sodelovanje</div>
         <div class="item-textgroup">
-          <p class="item-text">Izpolnite Vlogo za vpis izbirnega predmeta, navedete izbirni predmet »Interdisciplinarni projekti«</p>
-          <p class="item-text">Izpolnite prošnjo za Vpis zunanjih splošnih izbirnih predmetov </p>
-          <p class="item-text">Obe prošnji v potrditev pošljite v referat UL FRI na mail studinfo@fri.uni-lj.si (formalno predmet teče na UL FRI, predmet pa izvajamo nosilci iz UL FE in UL FRI) </p>
-          <p class="item-text">Potrjeno Vlogo za vpis izbirnega predmeta pošljite na studij@fe.uni-lj.si (s tem obvestite študijski referat FE)</p>
+          <p class="item-text">Izpolnite <a class="sodelovanje-link" href="http://localhost:8080">Vlogo za vpis izbirnega predmeta</a>, navedete izbirni predmet »Interdisciplinarni projekti«</p>
+          <p class="item-text">Izpolnite prošnjo za <a class="sodelovanje-link" href="http://localhost:8080">Vpis zunanjih splošnih izbirnih predmetov</a></p>
+          <p class="item-text">Obe prošnji v potrditev pošljite v referat UL FRI na mail <a class="sodelovanje-link" href="mailto:studinfo@fri.uni-lj.si">studinfo@fri.uni-lj.si</a> (formalno predmet teče na UL FRI, predmet pa izvajamo nosilci iz UL FE in UL FRI) </p>
+          <p class="item-text">Potrjeno <a class="sodelovanje-link" href="http://localhost:8080">Vlogo za vpis izbirnega predmeta</a> pošljite na <a class="sodelovanje-link" href="mailto:studij@fe.uni-lj.si">studij@fe.uni-lj.si</a> (s tem obvestite študijski referat FE)</p>
         </div>
       </div>
     </div>
-    <hr class="divider mb"/>
+    <hr class="divider mt-3"/>
     <div class="sodelovanje-item">
       <div class="item-left">
         <div class="item-meta">študenti</div>
@@ -43,11 +44,11 @@
         <div class="item-textgroup">
           <p class="item-text">Pri vpisu izberete splošno izbirni predmet »Interdisciplinarni projekti«.</p>
           <p class="item-text">V kolikor izbora predmeta ne morete izvesti avtomatsko ob izvedbi vpisnega postopka, lahko ob vpisu izberete Place holder predmet – »Izbrani predmet druge fakultete«.</p>
-          <p class="item-text">Po elektronski pošti studinfo@fri.uni-lj.si zaprosite za ureditev predmetnika.</p>
+          <p class="item-text">Po elektronski pošti <a class="sodelovanje-link" href="mailto:studinfo@fri.uni-lj.si">studinfo@fri.uni-lj.si</a> zaprosite za ureditev predmetnika.</p>
         </div>
       </div>
     </div>
-    <hr class="divider"/>
+    <hr class="divider mt-3"/>
     <div class="sodelovanje-item mb-0">
       <div class="item-left">
         <div class="item-meta">študenti</div>
@@ -57,10 +58,10 @@
       <div class="item-right">
         <div class="item-meta mb-1">sodelovanje</div>
         <div class="item-textgroup">
-          <p class="item-text">Izpolnite »Prošnjo za opravljanje izbirnega predmeta na drugi fakulteti« (primer za FKKT je na povezavi)</p>
-          <p class="item-text">Izpolnite Vpis zunanjih splošnih izbirnih predmetov in navedete predmet »Interdisciplinarni projekti«</p>
-          <p class="item-text">Obe prošnji v potrditev pošljete v referat UL FRI po elektronski pošti studinfo@fri.uni-lj.si </p>
-          <p class="item-text">Potrjeno Prošnjo za opravljanje izbirnega predmeta na drugi fakulteti pošljite v vaš matični referat</p>
+          <p class="item-text">Izpolnite »Prošnjo za opravljanje izbirnega predmeta na drugi fakulteti« (primer za FKKT je na <a class="sodelovanje-link" href="http://localhost:8080">povezavi</a>)</p>
+          <p class="item-text">Izpolnite <a href="http://localhost:8080" class="sodelovanje-link">Vpis zunanjih splošnih izbirnih predmetov</a> in navedete predmet »Interdisciplinarni projekti«</p>
+          <p class="item-text">Obe prošnji v potrditev pošljete v referat UL FRI po elektronski pošti <a class="sodelovanje-link" href="mailto:studinfo@fri.uni-lj.si">studinfo@fri.uni-lj.si</a> </p>
+          <p class="item-text">Potrjeno <a href="http://localhost:8080" class="sodelovanje-link">Prošnjo za opravljanje izbirnega predmeta</a> na drugi fakulteti pošljite v vaš matični referat</p>
         </div>
       </div>
     </div>

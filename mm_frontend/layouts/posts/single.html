@@ -14,7 +14,7 @@
       </div>
     </div>
   </section>
-  <hr class="divider"/>
+  <hr class="divider mt-6"/>
 
   {{- with .Params.ytLink -}}
   <!-- Video predstavitve -->
@@ -59,7 +59,7 @@
       "cellAlign": "center", "pageDots": false,
       "imageProcessed": true, "fullscreen": true,
       "wrapAround": true, "freeScroll": true,
-      "setGallerySize": false, "adaptiveHeight": true,
+      "setGallerySize": false, "imagesLoaded": true,
       "arrowShape": "M 8.8067 49.92 l 31.3123 25.9376 l -2.679 3.1824 l -37.44 -31.2874 l 37.44 -31.1126 l 2.6832 3.1782 l -31.3206 25.9418 h 91.0374 v 4.16 h -91.0333 z"
       }'>
       {{ range .Page.Resources.ByType "image"}}

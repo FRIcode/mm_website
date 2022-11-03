@@ -1,0 +1,19 @@
+{{- define "main" -}}
+<main>
+  <style>
+      body {
+
+      }
+  </style>
+  <!-- Title and Abstract -->
+  <section>
+    {{ .Content }}
+  </section>
+  {{ $image := .Resources.GetMatch "proces.png" }}
+  {{ with $image }}
+  <section>
+      <img class="proces-img" src="{{ .RelPermalink }}" alt="{{ .Params.alt }}"/>
+  </section>
+  {{ end }}
+</main>
+{{- end -}}
