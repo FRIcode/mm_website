@@ -697,7 +697,7 @@ footer {
     .menu-mobile.scrolled { padding: 10px 4%;}
     .menu-dekstop { display: none; }
     .header-links { z-index: 2; }
-    .hero-section { padding-top: 180px; }f
+    .hero-section { padding-top: 180px; }
     .post-item { gap: 2rem; }
     .post-gallery-section { height: 200px; }
     .post-item, .mentors-item, .sodelovanje-item { flex-wrap: wrap; }
