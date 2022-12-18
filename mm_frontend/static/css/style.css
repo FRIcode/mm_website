@@ -386,8 +386,10 @@ section h3 {
 
 .student-list {
     display: flex;
-    flex-direction: column;
-    max-height: 700px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 35px;
+    max-width: 100%;
 }
 
 .student-item {
@@ -451,7 +453,7 @@ footer {
 }
 
 .post-gallery-section {
-    height: 500px;
+    height: 700px;
 }
 
 .post-gallery-carousel {
@@ -493,7 +495,7 @@ footer {
 /* selected size */
 .carousel-cell.is-selected { opacity: 1.0; }
 
-.carousel-cell img { max-height: 30%; width: auto; max-width: 100%; }
+.carousel-cell img { max-height: 40%; width: auto; max-width: 100%; }
 
 
 .post-section-title {
@@ -521,6 +523,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 1.667rem;
+    grid-column-gap: 5px;
 }
 
 .results-list {
@@ -573,6 +576,7 @@ footer {
 .post-students {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
     grid-row-gap: 0.5rem;
 }
 

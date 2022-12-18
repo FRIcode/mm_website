@@ -1,0 +1,254 @@
+{
+  "results": [
+    {
+      "title": "Loški edamec",
+      "tutorial": "IZHODISCA/Izhodišča za Loski edamec.pdf",
+      "pitch": "POROCILA/LM_Loški edamec.pdf"
+    },
+    {
+      "title": "Medeni jogurt 1",
+      "pitch": "POROCILA/LM_Medeni jogurt 1.pdf",
+      "tutorial": "IZHODISCA/Izhodisca za medeni jogurt.pdf"
+    },
+    {
+      "title": "Medeni jogurt 2",
+      "pitch": "POROCILA/LM_Medeni jogurt 2.pdf",
+      "tutorial": "IZHODISCA/Izhodisca za medeni jogurt.pdf"
+    },
+    {
+      "title": "Medeni jogurt 3",
+      "pitch": "POROCILA/LM_Medeni jogurt_3.pdf",
+      "tutorial": "IZHODISCA/Izhodisca za medeni jogurt.pdf"
+    },
+    {
+      "title": "Seneno mleko",
+      "pitch": "POROCILA/LM_Seneno mleko.pdf"
+    },
+    {
+      "title": "Otroški Jogurt 1",
+      "pitch": "POROCILA/LM_Otroški jogurt 1.pdf",
+      "tutorial": "IZHODISCA/Izhodisca za otroski jogurt.pdf"
+    },
+    {
+      "title": "Ekološki otroški Jogurt 2",
+      "pitch": "POROCILA/LM_Otroški jogurt 2.pdf",
+      "tutorial": "IZHODISCA/Izhodisca za otroski jogurt.pdf"
+    }
+  ],
+  "student_groups": [
+    {
+      "group": "Loški edamec",
+      "students": [
+        {
+          "name": "Delič Aida",
+          "faculty": "EF"
+        },
+        {
+          "name": "Kopač Katja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Koželj Jernej",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Lavrenčič Aljaž",
+          "faculty": "EF"
+        },
+        {
+          "name": "Lenaršič Matic",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Lokar Maja",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Medeni jogurt 1",
+      "students": [
+        {
+          "name": "Gidaković Petar",
+          "faculty": "EF"
+        },
+        {
+          "name": "Irman Jan",
+          "faculty": "EF"
+        },
+        {
+          "name": "Jakupović Silvija",
+          "faculty": "EF"
+        },
+        {
+          "name": "Meden Aleš",
+          "faculty": "EF"
+        },
+        {
+          "name": "Repotočnik Maja",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Vihtelič Matic",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Medeni jogurt 2",
+      "students": [
+        {
+          "name": "Lorenz Jona",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Podboj Mateja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Polenšek Anja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Prešeren Špela",
+          "faculty": "EF"
+        },
+        {
+          "name": "Psarn Eva",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Todić, Sanja",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Medeni jogurt 3",
+      "students": [
+        {
+          "name": "Laznik Lara",
+          "faculty": "EF"
+        },
+        {
+          "name": "Pogačar Andreja",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Potočar Katja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Trkov Tina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Žmavc Damjana",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Seneno mleko",
+      "students": [
+        {
+          "name": "Cijan Janja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Kljunić Aida",
+          "faculty": "EF"
+        },
+        {
+          "name": "Likar lea",
+          "faculty": "EF"
+        },
+        {
+          "name": "Škufca Mateja",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Otroški jogurt 1",
+      "students": [
+        {
+          "name": "Boštjančič Eva",
+          "faculty": "EF"
+        },
+        {
+          "name": "Golčer Špela",
+          "faculty": "EF"
+        },
+        {
+          "name": "Humar Gregor",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Janković Gordana",
+          "faculty": "EF"
+        },
+        {
+          "name": "Kermc Vanja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Lojen Vanja",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Ekološki otroški Jogurt 2",
+      "students": [
+        {
+          "name": "Alandžak Alen",
+          "faculty": "EF"
+        },
+        {
+          "name": "Bevec Patrik",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Grkovska Sanja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Ilnikar Jasmina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Lavrenčič Tanja",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Tomažin Marko",
+          "faculty": "EF"
+        }
+      ]
+    }
+  ],
+  "faculties": [ "UL Ekonomska fakulteta", "UL Akademija za likovno umetnost in oblikovanje" ],
+  "opinions": [
+    {
+      "author": "Študentka z ALUO",
+      "text": "Vsebina je bila primerna, pridobili smo veliko znanja o mlečnih izdelkih in proizvodnji, kar je seveda super. Sedaj sem pri nakupih tudi bolj pozorna in osveščena. Naučila sem se komunikacije in argumentiranega govora, usklajevanja znotraj skupine in izboljšala svojo toleranco do sodelujočih."
+    },
+    {
+      "author": "Študent z EF",
+      "text": "Bila je zanimiva, ker smo delali za podjetje, ki je popolnoma izgubljeno v prostoru in času. Kljub tradiciji namreč velika večina Škofjeločanov nima pojma kje mlekarna sploh je. Poznajo samo center Trata. Naučil sem se o pomenu tehnologov (Cilka), ki lahko izpodbijejo še tako dobro idejo. Zanimivo je bilo tudi opazovati delo oblikovalcev, ki so čarali z nekimi barvami za katere nihče še ni niti slišal in prišli do odličnih oblikovalskih idej."
+    }
+  ],
+  "mentors": [
+    {
+      "name": "prof. dr. Tanja Dmitrović",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    }
+  ]
+}

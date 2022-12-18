@@ -28,7 +28,7 @@
   </section>
   <!-- Past Posts Section -->
   <section>
-    <h2 class="mb-2">Pretekle rešitve</h2>
+    <h2 class="mb-2">Projekti prejšnjih let</h2>
     <hr class="divider mt-1"/>
 
     {{- partial "post_list.html" . -}}
@@ -46,7 +46,7 @@
   <section>
     <h3 class="mb-2">Sodelujoči študenti</h3>
     <div class="student-list">
-      {{- partial "students.html" $.Site.Data.all_students.students -}}
+      {{- partial "students.html" . -}}
     </div>
   </section>
 </main>

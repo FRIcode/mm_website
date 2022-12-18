@@ -1,7 +1,14 @@
 <div class="mentors-list">
+  <div class="metas">VODENJE N SODELOVANJE NA PROJEKTU MULTIDISCIPLINAREN.SI</div>
   {{ range .Site.Params.mentors }}
     <div class="mentors-item">
       <div class="mentors-name">{{ .name }}</div><div class="mentors-fac">{{ .faculty }}</div>
     </div>
+  {{ end }}
+  <div class="metas mt-2">SODELOVANJE NA PROJEKTIH MULTIDISCIPLINAREN.SI</div>
+  {{ range .Site.Params.mentors }}
+  <div class="mentors-item">
+    <div class="mentors-name">{{ .name }}</div><div class="mentors-fac">{{ .faculty }}</div>
+  </div>
   {{ end }}
 </div>

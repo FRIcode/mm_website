@@ -1,5 +1,15 @@
-{{- range . -}}
-<div class="student-item">
-  <div class="student-name">{{ .name }}</div><div class="student-faculty">{{ .faculty }}</div>
-</div>
-{{- end -}}
+{{ range (where .Site.RegularPages "Section" "posts") }}
+  {{ $infoResource := (.Page.Resources.GetMatch "info.json").RelPermalink }}
+  {{ $info := getJSON "content" $infoResource }}
+
+  {{ range $info.student_groups }}
+  {{ range .students}}
+  <div class="student-item">
+    <div class="student-name">{{.name}}</div><div class="student-faculty">{{.faculty}}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+{{ end }}
+
+
+

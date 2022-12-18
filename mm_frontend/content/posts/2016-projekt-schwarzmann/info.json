@@ -1,0 +1,333 @@
+{
+  "results": [
+    {
+      "title": "Aplikacija Vegi",
+      "pitch": "POROCILA/APLIKACIJA VEGI.pdf",
+      "poster": "PREDSTAVITVE/Aplikacija Vegi_Predstavitev.pdf"
+    },
+    {
+      "title": "Modularni sistem hleva",
+      "pitch": "POROCILA/Modularni sistem hleva za prosto rejo.pdf",
+      "poster": "PREDSTAVITVE/Modularni hlev za prosto rejo_Predstavitev.pdf"
+    },
+    {
+      "title": "Mobilni modularni otok za govedo na paši",
+      "pitch": "POROCILA/Mobilni modularni otok na pašniku.pdf",
+      "poster": "PREDSTAVITVE/Modularni otok_Predstavitev.pdf"
+    },
+    {
+      "title": "Urbani vrtovi",
+      "pitch": "POROCILA/Urbani vrtovi.pdf",
+      "poster": "PREDSTAVITVE/MOJ URBANI VRTICEK predstavitev.pdf"
+    },
+    {
+      "title": "Rastlinko: samooskrba hiš",
+      "pitch": "POROCILA/Rastlinko.pdf",
+      "poster": "PREDSTAVITVE/Rastlinko_Predstavitev.pdf"
+    },
+    {
+      "title": "Urbani kokošnjak: prosta reja kokoši nesnic",
+      "pitch": "POROCILA/Urbani kokošnjak.pdf",
+      "poster": "PREDSTAVITVE/Urbani kokošnja_Prestavitev.pdf"
+    },
+    {
+      "title": "Bilka: vaš urbani vertikalni vrt",
+      "pitch": "POROCILA/BILKA_Vaš urbani vertikalni vrt.pdf",
+      "poster": "PREDSTAVITVE/Vertikalni_vrt_Predstavitev.pdf"
+    },
+    {
+      "title": "Zaščita za paradižnik",
+      "pitch": "POROCILA/Zaščita za paradižnik.pdf",
+      "poster": "PREDSTAVITVE/Zaščita za paradižnik_Predstavitev.pdf"
+    },
+    {
+      "title": "Zelena oaza sredi urbanega kaosa",
+      "pitch": "POROCILA/Zelena oaza sredi urbanega kaosa.pdf",
+      "poster": "PREDSTAVITVE/Zelena oaza sredi urbanega kaosa_Predstavitev.pdf"
+    }
+  ],
+  "student_groups": [
+    {
+      "group": "Aplikacija Vegi",
+      "students": [
+        {
+          "name": "Erjavec Jan",
+          "faculty": "EF"
+        },
+        {
+          "name": "Hribar Ana",
+          "faculty": "BF"
+        },
+        {
+          "name": "Korenčič Petra",
+          "faculty": "EF"
+        },
+        {
+          "name": "Mujakić Ines",
+          "faculty": "EF"
+        },
+        {
+          "name": "Pogačnik Jure",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Trtnik Maja",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Modularni sistem hleva",
+      "students": [
+        {
+          "name": "Duhovnik Liza",
+          "faculty": "EF"
+        },
+        {
+          "name": "Goršin Miha",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Grobler Maja",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Mirt Barbara",
+          "faculty": "EF"
+        },
+        {
+          "name": "Pečnik Žan",
+          "faculty": "BF"
+        }
+      ]
+    },
+    {
+      "group": "Mobilni modularni otok za govedo na paši",
+      "students": [
+        {
+          "name": "Brezec Žan",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Kozman Eva",
+          "faculty": "BF"
+        },
+        {
+          "name": "Rančigaj Gal",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Simeonov Andreja",
+          "faculty": "BF"
+        },
+        {
+          "name": "Skorupan Zala",
+          "faculty": "EF"
+        },
+        {
+          "name": "Vodopivec Sara",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Urbani vrtovi",
+      "students": [
+        {
+          "name": "Angelov Trajche",
+          "faculty": "EF"
+        },
+        {
+          "name": "Golob Vesna",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Križnar Liza",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Strmšek Klavdija",
+          "faculty": "BF"
+        },
+        {
+          "name": "Strojinc Tina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Štritof Nina",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Rastlinko: samooskrba hiš",
+      "students": [
+        {
+          "name": "Kamenšek Gaja",
+          "faculty": "BF"
+        },
+        {
+          "name": "Kosirnik Sara",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Willenpart Teja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Nabernik Maša",
+          "faculty": "EF"
+        },
+        {
+          "name": "Murn Lea",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Urbani kokošnjak: prosta reja kokoši nesnic",
+      "students": [
+        {
+          "name": "Plestenjak Katarina",
+          "faculty": "BF"
+        },
+        {
+          "name": "Puhek Maja",
+          "faculty": "BF"
+        },
+        {
+          "name": "Zabukovec Klemen",
+          "faculty": "EF"
+        },
+        {
+          "name": "Zager Tjaša",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Zemljič Matic",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Bilka: vaš urbani vertikalni vrt ",
+      "students": [
+        {
+          "name": "Avguštin Ksenija",
+          "faculty": "EF"
+        },
+        {
+          "name": "Bevc Anja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Horvatić Matej",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Hribernik Ana",
+          "faculty": "EF"
+        },
+        {
+          "name": "Kulašević Sanja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Oreški Ana",
+          "faculty": "BF"
+        },
+        {
+          "name": "Simonič Anja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Zalar Maša",
+          "faculty": "BF"
+        }
+      ]
+    },
+    {
+      "group": "Zaščita za paradižnik",
+      "students": [
+        {
+          "name": "Funtek Tina",
+          "faculty": "BF"
+        },
+        {
+          "name": "Kaligaro Dejan",
+          "faculty": "BF"
+        },
+        {
+          "name": "Medved Polona",
+          "faculty": "EF"
+        },
+        {
+          "name": "Plut Neža",
+          "faculty": "EF"
+        },
+        {
+          "name": "Škrbec Maruša",
+          "faculty": "EF"
+        },
+        {
+          "name": "Tratar Katja",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Zelena oaza sredi urbanega kaosa",
+      "students": [
+        {
+          "name": "Hiti Ana",
+          "faculty": "BF"
+        },
+        {
+          "name": "Makor Anja",
+          "faculty": "BF"
+        },
+        {
+          "name": "Duboković Ana Marie",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Stubelj Anja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Car Ajda",
+          "faculty": "EF"
+        },
+        {
+          "name": "Pavlovič Laura",
+          "faculty": "EF"
+        }
+      ]
+    }
+  ],
+  "faculties": [
+    "UL Ekonomska fakulteta",
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Biotehniška fakulteta"
+  ],
+  "mentors": [
+    {
+      "name": "prof. dr. Tanja Dmitrović",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    },
+    {
+      "name": "prof. dr. Andrej Udovč",
+      "subject": "Osnove raziskovalnega in projektnega dela"
+    },
+    {
+      "name": "prof. dr. Emil Erjavec",
+      "subject": "Osnove raziskovalnega in projektnega dela"
+    }
+  ]
+}

@@ -10,24 +10,28 @@ title = "Multidisciplinarni projekti na UL"
   [params.hero]
     text = "Multidisciplinarna, projektno zasnovana učna izkušnja magistrskih študentov različnih fakultet in programov UL"
     linkText = "Kako poteka sodelovanje"
-  [[params.mentors]]
+  [[params.leaders]]
     name = "doc. Miha Klinar"
     faculty = "Akademija za likovno umetnost in oblikovanje"
-  [[params.mentors]]
-    name = "prof. dr. Emil Erjavec, prof. dr. Andrej Udovč"
-    faculty = "Biotehniška fakulteta"
-  [[params.mentors]]
-    name = "prof. dr. Tanja Dmitrović, prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh"
+  [[params.leaders]]
+    name = "prof. dr. Tanja Dmitrović"
     faculty = "Ekonomska Fakulteta"
+  [[params.leaders]]
+    name = "prof. dr. Andrej Kos, mag. Luka Mali"
+    faculty = "Fakulteta za elektrotehniko"
+  [[params.leaders]]
+    name = "doc. dr. Matevž Pesek"
+    faculty = "Fakulteta za računalništvo in informatiko"
   [[params.mentors]]
     name = "doc. Primož Jeza"
     faculty = "Ekonomska Fakulteta"
   [[params.mentors]]
-    name = "prof. dr. Andrej Kos, mag. Luka Mali"
-    faculty = "Fakulteta za elektrotehniko"
+    name = "prof. dr. Emil Erjavec, prof. dr. Andrej Udovč"
+    faculty = "Biotehniška fakulteta"
   [[params.mentors]]
-    name = "doc. dr. Matevž Pesek"
-    faculty = "Fakulteta za računalništvo in informatiko"
+    name = "prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh"
+    faculty = "Ekonomska Fakulteta"
+
   [params.footer]
     text = "Za več vprašanj smo vam na voljo na"
     mail = "info@multidisciplinaren.si"
@@ -44,8 +48,8 @@ title = "Multidisciplinarni projekti na UL"
     url = "/za-studente"
     weight = 2
   [[menu.main]]
-    name = "Za podjetja"
-    url = "/za-podjetja"
+    name = "Za organizacije"
+    url = "/za-organizacije"
     weight = 3
   [[menu.main]]
     name = "Galerija"

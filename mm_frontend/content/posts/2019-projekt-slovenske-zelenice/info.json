@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "title": "Razvoj pravičnejšega modela odvoza embalaže v Sloveniji",
+      "poster": "PREDSTAVITVE/POROČILO-pravičnejši model odvoza embalaže.pdf",
+      "pitch": "POROCILA/plakat_pravičnejši model odvoza odpadne embalaže.pdf"
+    },
+    {
+      "title": "Platforma za povezovanje voženj med zaposlenimi z oddajanjem prostih parkirnih mest",
+      "pitch": "POROCILA/Porocilo_spodbujanje skupnih prevozov med zaposlenimi_UO_2020_27_5.pdf",
+      "poster": "PREDSTAVITVE/Plakat spodbujanje skupnih prevozov.pdf"
+    },
+    {
+      "title": "Storitev za nižanje stroškov finančno občutljivih skupin z ozaveščanjem o porabi električne energije",
+      "pitch": "POROCILA/Poročilo_nižanje stroškov energije finančno občutljivih skupin.pdf",
+      "poster": "PREDSTAVITVE/Plakat _nižanje stroškov energije.pdf"
+    },
+    {
+      "title": "Komunikacijska naprava za blaženje stiske osamljenosti pri starejših",
+      "pitch": "POROCILA/Prezentacija blaženje stiske osamljenosti starejših.pdf",
+      "poster": "PREDSTAVITVE/plakat zmanjševanje stiske osamljenosti.pdf"
+    },
+    {
+      "title": "Zagotavljanje varne razdalje v proizvodnem procesu",
+      "pitch": "POROCILA/Varna razdalja_NM_compressed.pdf"
+    }
+  ],
+  "faculties": [
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Fakulteta za elektrotehniko"
+  ],
+  "student_groups": [
+    {
+      "group": "Razvoj pravičnejšega modela odvoza embalaže v Sloveniji",
+      "students": [
+        {
+          "name": "Martin Pevec",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Valeska Rimele",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Aleks Gabrič",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Platforma za povezovanje voženj med zaposlenimi z oddajanjem prostih parkirnih mest",
+      "students": [
+        {
+          "name": "Dea Beatovik",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Rok Mokorel",
+          "faculty": "FE"
+        },
+        {
+          "name": "Blaž Potočnik",
+          "faculty": ""
+        },
+        {
+          "name": "Nataša Zekič",
+          "faculty": ""
+        },
+        {
+          "name": "Žiga Žalec",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Storitev za nižanje stroškov finančno občutljivih skupin z ozaveščanjem o porabi električne energije",
+      "students": [
+        {
+          "name": "Sebastjan Debenjak",
+          "faculty": ""
+        },
+        {
+          "name": "Tino Duralija",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Žiga Hutar",
+          "faculty": "FE"
+        },
+        {
+          "name": "Tadej Mulh",
+          "faculty": "FE"
+        },
+        {
+          "name": "Pami Prevolnik",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Komunikacijska naprava za blaženje stiske osamljenosti pri starejših",
+      "students": [
+        {
+          "name": "Žiga Brinšek",
+          "faculty": ""
+        },
+        {
+          "name": "Deja Kofol",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Jon Schwarzmann",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Filip Stražišar",
+          "faculty": ""
+        },
+        {
+          "name": "Lan Terseglav",
+          "faculty": ""
+        }
+      ]
+    },
+    {
+      "group": "Zagotavljanje varne razdalje v proizvodnem procesu",
+      "students": [
+        {
+          "name": "Anže Dovžan Perovič",
+          "faculty": ""
+        },
+        {
+          "name": "Gašper Kastelic",
+          "faculty": ""
+        },
+        {
+          "name": "Nemanja Mihajlović",
+          "faculty": ""
+        },
+        {
+          "name": "Matevž Breznikar",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Niki Kuhar",
+          "faculty": "ALUO"
+        }
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    },
+    {
+      "name": "prof. dr. Andrej Kos",
+      "subject": "Interdisciplinarni projekti"
+    },
+    {
+      "name": "mag. Luka Mali",
+      "subject": "Interdisciplinarni projekti"
+    }
+  ]
+}

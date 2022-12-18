@@ -1,0 +1,43 @@
+{
+  "faculties": [
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Fakulteta za elektrotehniko"
+  ],
+  "mentors": [
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje, ALUO"
+    },
+    {
+      "name": "prof. dr. Andrej Kos",
+      "subject": "Interdisciplinarni projekti",
+      "faculty_program": "FE/FRI"
+    },
+    {
+      "name": "doc. dr. Matevž Pesek",
+      "subject": "Interdisciplinarni projekti",
+      "faculty_program": "FE/FRI"
+    },
+    {
+      "name": "mag. Luka Mali",
+      "subject": "Interdisciplinarni projekti",
+      "faculty_program": "FE/FRI"
+    },
+    {
+      "name": "prof. dr. Tanja Dmitrović",
+      "subject": "Trženje v agroživilskih in lesnih verigah, Ekonomika projektov",
+      "faculty_program": "BF, EF"
+    },
+    {
+      "name": "prof. dr. Mojca Marc",
+      "subject": "Ekonomika projektov",
+      "faculty_program": "EF"
+    },
+    {
+      "name": "doc. dr. Aleš Pustovrh",
+      "subject": "Podpora pri pripravi učinkovite predstavitve",
+      "faculty_program": "EF"
+    }
+  ]
+}

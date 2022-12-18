@@ -1,0 +1,357 @@
+{
+  "results": [
+    {
+      "title": "Zgodba podjetja HSE: izziv blagovne znamke",
+      "pitch": "POROCILA/Enotna zgodba HSE - Poročilo izziva blagovne znamke.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Enotna zgodba podjetja HSE - PPT Blagovne znamke.pdf"
+    },
+    {
+      "title": "Deljenje energije",
+      "pitch": "POROCILA/Porocilo_Deljenje_energije.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Deljenje_energije.pdf"
+    },
+    {
+      "title": "Plužna wake park in kamp",
+      "pitch": "POROCILA/Porocilo_Dodatna namembnost MHE Pluzna.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Wake park Pluzna.pdf"
+    },
+    {
+      "title": "Dodatna namembnost lokacije Termoelektrarne Trbovlje",
+      "pitch": "POROCILA/Porocilo_Dodatna namembnost termoelektrarne Trbovlje.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_DODATNA NAMEMBNOST TET.pdf"
+    },
+    {
+      "title": "HSE-bike",
+      "pitch": "POROCILA/Porocilo_Hsebike.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Hse-bike.pdf"
+    },
+    {
+      "title": "Prodi konglomerat",
+      "pitch": "POROCILA/Porocilo_Konglomerat.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Konglomerat.pdf"
+    },
+    {
+      "title": "Polnilne postaje na podeželju",
+      "pitch": "POROCILA/Porocilo_Soncne polnilnice.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Soncne polnilnice.pdf"
+    },
+    {
+      "title": "Soska postrv",
+      "pitch": "POROCILA/Porocilo_Soska postrv.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Soska postrv.pdf"
+    },
+    {
+      "title": "Večnamembnost izrabe nanselega proda iz akumulacijskih jezer",
+      "pitch": "POROCILA/Porocilo_Vecnamembnost proda.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_Vecnamembnost proda.pdf"
+    }
+  ],
+  "student_groups": [
+    {
+      "group": "Zgodba podjetja HSE: izziv blagovne znamke",
+      "students": [
+        {
+          "name": "Lapanja Ana",
+          "faculty": "EF"
+        },
+        {
+          "name": "Perkič Nuša",
+          "faculty": "EF"
+        },
+        {
+          "name": "Vojsk Eva",
+          "faculty": "EF"
+        },
+        {
+          "name": "Ilar Kosmač Špela",
+          "faculty": "EF"
+        },
+        {
+          "name": "Uršič Urška",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Deljenje energije",
+      "students": [
+        {
+          "name": "Antonić Milan",
+          "faculty": "EF"
+        },
+        {
+          "name": "Frančeškin Jan",
+          "faculty": "EF"
+        },
+        {
+          "name": "Hančič Žiga",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Kušnik Blaž",
+          "faculty": "FE"
+        },
+        {
+          "name": "Kuhar Anzej",
+          "faculty": "EF"
+        },
+        {
+          "name": "Livk Anamarija",
+          "faculty": "EF"
+        },
+        {
+          "name": "Novaković Dijana",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Plužna wake park in kamp",
+      "students": [
+        {
+          "name": "Bertok Ajda",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Bizjak Aljaž",
+          "faculty": "EF"
+        },
+        {
+          "name": "Lasič Ana",
+          "faculty": "EF"
+        },
+        {
+          "name": "Primožič Darja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Romanešen Mihaela",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Tomić  Sara",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Dodatna namembnost lokacije Termoelektrarne Trbovlje",
+      "students": [
+        {
+          "name": "Karas Julija",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Močnik Ambrož",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Dobrina Golob Gabrijela",
+          "faculty": "EF"
+        },
+        {
+          "name": "Količ Eva",
+          "faculty": "EF"
+        },
+        {
+          "name": "Mervar Lara",
+          "faculty": "EF"
+        },
+        {
+          "name": "Naglič Kaja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Podlipnik Katja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Krnc Tina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Jožef Tjaša",
+          "faculty": "EF"
+        },
+        {
+          "name": "Rehberger Klemen",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "HSE-bike",
+      "students": [
+        {
+          "name": "Rotar Katja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Gaber Urška",
+          "faculty": "EF"
+        },
+        {
+          "name": "Kirm Tadeja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Ferleš Nika",
+          "faculty": "EF"
+        },
+        {
+          "name": "Kapus Jernej",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Panjan Kristjan",
+          "faculty": "FE"
+        }
+      ]
+    },
+    {
+      "group": "Prodi konglomerat",
+      "students": [
+        {
+          "name": "Božič Jure",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Govže Viktor",
+          "faculty": "FS"
+        },
+        {
+          "name": "Kobal Žan",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Lašič Tamara",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Pregel Daša",
+          "faculty": "EF"
+        },
+        {
+          "name": "Štefan Tomislav",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Polnilne postaje na podeželju",
+      "students": [
+        {
+          "name": "Arhar Milenković Maša",
+          "faculty": "EF"
+        },
+        {
+          "name": "Delič Jakub",
+          "faculty": "FE"
+        },
+        {
+          "name": "Ivanov Sabina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Krajnik Matevž",
+          "faculty": "EF"
+        },
+        {
+          "name": "Rančigaj Gal",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Soška postrv",
+      "students": [
+        {
+          "name": "Ježek Marko",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Krajnik Tanja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Puc Kristina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Weissenbach Lucija",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Večnamembnost izrabe nanselega proda iz akumulacijskih jezer",
+      "students": [
+        {
+          "name": "Arčan Valentina",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Černilogar Lenart",
+          "faculty": "EF"
+        },
+        {
+          "name": "Podpečan Petra",
+          "faculty": "EF"
+        },
+        {
+          "name": "Rijavec Vid",
+          "faculty": "FE"
+        },
+        {
+          "name": "Vuk Ana",
+          "faculty": "EF"
+        },
+        {
+          "name": "Zamernik Mojca",
+          "faculty": "EF"
+        },
+        {
+          "name": "Železnik Hana",
+          "faculty": "ALUO"
+        }
+      ]
+    }
+  ],
+  "faculties": [ "UL Ekonomska fakulteta", "UL Akademija za likovno umetnost in oblikovanje", "UL Fakulteta za elektrotehniko" ],
+  "opinions": [
+    {
+      "author": "G. Janko Humar, direktor LTO Bovec",
+      "text": "Projektne naloge predstavljajo odličen primer profesionalnega pristopa k reševanju problemov v zahtevni dejavnosti; vsak izmed predstavljenih projektov je imel jasno izoblikovan vsebinski koncept, opredeljene ciljne skupine, ocenjena vlaganja in kritične točke za pokritje stroškov. Večino idej so študenti razvili do tržno koncipiranih paketov, vse predstavljene ideje pa so bile med sabo tudi dobro usklajene. Dodatno širino in celovitost obravnave problematike so študentje dosegli skozi interdisciplinarni – torej ekonomski, oblikovalski in arhitekturni pristop."
+    }
+  ],
+  "mentors": [
+    {
+      "name": "prof. dr. Tanja Dmitrović",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "prof. dr. Mojca Marc",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. dr. Aleš Pustovrh",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    },
+    {
+      "name": "prof. dr. Andrej Kos",
+      "subject": "Interdisciplinarni projekti"
+    },
+    {
+      "name": "mag. Luka Mali",
+      "subject": "Interdisciplinarni projekti"
+    }
+  ]
+}

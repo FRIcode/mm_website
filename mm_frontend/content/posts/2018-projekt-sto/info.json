@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "title": "Butični poslovni turizem v Goriških Brdih",
+      "poster": "PREDSTAVITVE/Gradovi_predstavitev.pdf",
+      "pitch": "POROCILA/Gradovi_ porocilo.pdf"
+    },
+    {
+      "title": "Oblikovanje pet-zvezdičnega družinskega doživetja na slovenskih gradovih",
+      "pitch": "POROCILA/POROČILO - Ppriložnosti za razvoj poslovnega turizma.pdf",
+      "poster": "PREDSTAVITVE/PREDSTAVITEV_priložnosti za razvoj poslovnega turizma.pdf"
+    },
+    {
+      "title": "Po tirih transalpine",
+      "pitch": "POROCILA/porocilo_po tirih transalpine_KONCNO_WEB.pdf",
+      "poster": "PREDSTAVITVE/Predstavitev_po tirih transalpine_5.3.19.pdf"
+    }
+  ],
+  "student_groups": [
+    {
+      "group": "Butični poslovni turizem v Goriških Brdih",
+      "students": [
+        {
+          "name": "Koncut Jakob",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Mužina Tjaša",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Repše Andrej",
+          "faculty": "EF"
+        },
+        {
+          "name": "Skodlar Blaž",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Oblikovanje pet-zvezdičnega družinskega doživetja na slovenskih gradovih",
+      "students": [
+        {
+          "name": "Stražar Gregor",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Tratar Jera",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Bregar Simon",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Horvat Krištof",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Po tirih transalpine",
+      "students": [
+        {
+          "name": "Dolinar Maruša",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Medved Neža",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Rozman Simon Izidor",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Vrhovšek Andraž Rudi",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Priselac Barbara",
+          "faculty": "EF"
+        }
+      ]
+    }
+  ],
+  "faculties": [
+    "UL Ekonomska fakulteta",
+    "UL Akademija za likovno umetnost in oblikovanje"
+  ],
+  "mentors": [
+    {
+      "name": "prof. dr. Tanja Dmitrović, doc. dr. Aleš Pustovrh",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. dr. Aleš Pustovrh",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    }
+  ]
+}

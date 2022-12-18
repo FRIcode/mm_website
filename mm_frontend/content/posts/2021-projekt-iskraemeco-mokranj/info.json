@@ -1,0 +1,165 @@
+{
+  "results": [
+    {
+      "title": "Interpretacija podatkov na uporabnikom razumljiv način, Mar+",
+      "tutorial": "PREDSTAVITVE/Interpretacija podatkov PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Interpretacija podatkov PLAKAT.pdf"
+    },
+    {
+      "title": "Podatki v realnem času, E-Check",
+      "tutorial": "PREDSTAVITVE/Podatki v realnem času PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Podatki v realnem času PLAKAT.pdf"
+    },
+    {
+      "title": "Paviljon",
+      "tutorial": "PREDSTAVITVE/PSredišče prihodnosti PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Sredisce prihodnosti PLAKAT.pdf"
+    },
+    {
+      "title": "Števce na ljudi",
+      "tutorial": "PREDSTAVITVE/Števce na ljudi PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Stevce na ljudi PLAKAT.pdf"
+    }
+  ],
+  "faculties": [
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Fakulteta za elektrotehniko"
+  ],
+  "student_groups": [
+    {
+      "group": "Interpretacija podatkov na uporabnikom razumljiv način, Mar+",
+      "students": [
+        {
+          "name": "Ajda Košorok",
+          "faculty": "FE"
+        },
+        {
+          "name": "Petra Kuralt",
+          "faculty": "FE"
+        },
+        {
+          "name": "Zuzana Budzakova Erasmus",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Esma Hajderpašič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Erik Mažgon",
+          "faculty": "FE"
+        },
+        {
+          "name": "Tim Vivoda",
+          "faculty": "FE"
+        }
+      ]
+    },
+    {
+      "group": "Podatki v realnem času, E-Check",
+      "students": [
+        {
+          "name": "Jakob Kolman",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Julijana Milharčič Hladnik",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Marija Staničič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Anja Kočman",
+          "faculty": "FE"
+        },
+        {
+          "name": "Blaž Ličen",
+          "faculty": "FE"
+        },
+        {
+          "name": "Kristjan Panjan",
+          "faculty": "FE"
+        },
+        {
+          "name": "Matjaž Rupnik",
+          "faculty": "FE"
+        }
+      ]
+    },
+    {
+      "group": "Paviljon",
+      "students": [
+        {
+          "name": "Lea Berlic",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Lara Gorenc",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Karel Filip Drobne",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Lučka Šnofl",
+          "faculty": "FRI"
+        },
+        {
+          "name": "Filip Korošec",
+          "faculty": "FKKT"
+        }
+      ]
+    },
+    {
+      "group": "Števce na ljudi",
+      "students": [
+        {
+          "name": "Urban Boštic",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Jaka Pavlin",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Jernej Škerlevaj",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Aleksander Hrastič",
+          "faculty": "FE"
+        },
+        {
+          "name": "Monika Bogataj",
+          "faculty": "FE"
+        },
+        {
+          "name": "Tim Križnik",
+          "faculty": "FE"
+        }
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    },
+    {
+      "name": "prof. dr. Andrej Kos",
+      "subject": "Interdisciplinarni projekti"
+    },
+    {
+      "name": "mag. Luka Mali",
+      "subject": "Interdisciplinarni projekti"
+    },
+    {
+      "name": "doc. dr. Aleš Pustovrh",
+      "subject": "Interdisciplinarni projekti"
+    }
+  ]
+}

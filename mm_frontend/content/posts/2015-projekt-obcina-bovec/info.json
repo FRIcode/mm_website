@@ -1,0 +1,398 @@
+{
+  "results": [
+    {
+      "title": "Študentski festival “Črna ovca”",
+      "pitch": "POROCILA/Študentski festival Črna ovca_poročilo.pdf",
+      "poster": "PREDSTAVITVE/1_Festival za mlade Črna_ovca.pdf"
+    },
+    {
+      "title": "165 turnosmučarskih poti",
+      "pitch": "POROCILA/165km_turnih_poti_poročilo.pdf",
+      "poster": "PREDSTAVITVE/2_165km turno smučarskih poti.pdf"
+    },
+    {
+      "title": "Smaragdni raj",
+      "pitch": "POROCILA/3_Smaragdni raj.pdf",
+      "poster": "PREDSTAVITVE/Smaragdni raj_poročilo.pdf"
+    },
+    {
+      "title": "Velikanov festival",
+      "pitch": "POROCILA/Velikanov festival_poročilo.pdf",
+      "poster": "PREDSTAVITVE/4_Velikanov festival.pdf"
+    },
+    {
+      "title": "Skok iz luže",
+      "pitch": "POROCILA/Skok iz luže_poročilo.pdf",
+      "poster": "PREDSTAVITVE/5_Skok iz luže.pdf"
+    },
+    {
+      "title": "Razvoj Kanina z visokogorskimi prenočišči",
+      "pitch": "POROCILA/Razvoj Kanina z visokogorskimi prenočišči.pdf",
+      "poster": "PREDSTAVITVE/6_Visokogorska prenočišča.pdf"
+    },
+    {
+      "title": "Bike park: obvezen produkt No. 1 outdoor destinacije",
+      "pitch": "POROCILA/Bike park_poročilo.pdf",
+      "poster": "PREDSTAVITVE/7_Bike park.pdf"
+    },
+    {
+      "title": "Vertikalne Jame",
+      "pitch": "POROCILA/Jame_Poročillo.pdf",
+      "poster": "PREDSTAVITVE/8_Vertikalne jame.pdf"
+    },
+    {
+      "title": "Zgodbe preteklosti",
+      "pitch": "POROCILA/Kluže_poročilo.pdf",
+      "poster": "PREDSTAVITVE/9_Zgodbe iz preteklosti - Prenova Kluž.pdf"
+    },
+    {
+      "title": "Snemalni industriji prijazna občina",
+      "pitch": "POROCILA/10_Bovec je filmska lokacija.pdf",
+      "poster": "PREDSTAVITVE/Bovec_Snemalni industriji prijazna občina_poročilo.pdf"
+    },
+    {
+      "title": "Nadgradnja turistične ponudbe občine Bovec",
+      "pitch": "POROCILA/Najboljša_destinacija_za_aktivne_v_regiji-Bovec 2016_poročilo.pdf",
+      "poster": "PREDSTAVITVE/11_Nadgradnja turistične ponudbe.pdf"
+    }
+  ],
+  "student_groups": [
+    {
+      "group": "Študentski festival “Črna ovca”",
+      "students": [
+        {
+          "name": "Baškovič Ana",
+          "faculty": "EF"
+        },
+        {
+          "name": "Lazič Tanja",
+          "faculty": "EF"
+        },
+        {
+          "name": "Valant Nina",
+          "faculty": "EF"
+        },
+        {
+          "name": "Vodopivc Lucija",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Ajda Regali Knez",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Kus Gašper",
+          "faculty": "FA"
+        }
+      ]
+    },
+    {
+      "group": "165 turnosmučarskih poti",
+      "students": [
+        {
+          "name": "Drofenik Jernej",
+          "faculty": "EF"
+        },
+        {
+          "name": "Jesihar Uroš",
+          "faculty": "FA"
+        },
+        {
+          "name": "Kosovel Uroš",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Lojen Vanja",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Todorović Darko",
+          "faculty": "EF"
+        },
+        {
+          "name": "Vergles Tilen",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Smaragdni raj",
+      "students": [
+        {
+          "name": "Ljubica Petrović",
+          "faculty": "FA"
+        },
+        {
+          "name": "Tina Polovič",
+          "faculty": "EF"
+        },
+        {
+          "name": "Eva Psarn",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Qandah Waseem",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Katja Valenčak",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Velikanov festival",
+      "students": [
+        {
+          "name": "Judita Boštjančič",
+          "faculty": "EF"
+        },
+        {
+          "name": "Diana Dovgan",
+          "faculty": "EF"
+        },
+        {
+          "name": "Gaja Kodrič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Špela Rehberger",
+          "faculty": "EF"
+        },
+        {
+          "name": "Vipavc Ana Marija",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Skok iz luže",
+      "students": [
+        {
+          "name": "Mateja Avbar",
+          "faculty": "EF"
+        },
+        {
+          "name": "Mateja Bremec",
+          "faculty": "EF"
+        },
+        {
+          "name": "Sanja Mikac",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Patricija Sabol",
+          "faculty": "FA"
+        },
+        {
+          "name": "Benjamin Skapin",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Mihaela Žakelj",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Razvoj Kanina z visokogorskimi prenočišči",
+      "students": [
+        {
+          "name": "Đurić Filip",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Kostevc Petra",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Kotnik Marko",
+          "faculty": "EF"
+        },
+        {
+          "name": "Oven Marta",
+          "faculty": "EF"
+        },
+        {
+          "name": "Prešeren Manca",
+          "faculty": "EF"
+        },
+        {
+          "name": "Valjavec Jan",
+          "faculty": "FA"
+        }
+      ]
+    },
+    {
+      "group": "Bike park: obvezen produkt No. 1 outdoor destinacije",
+      "students": [
+        {
+          "name": "Anja Hajdinjak",
+          "faculty": "EF"
+        },
+        {
+          "name": "Mihael Jenko",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Jakob Kajzer",
+          "faculty": "FA"
+        },
+        {
+          "name": "Jernej Koželj",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Iris Pšunder",
+          "faculty": "EF"
+        },
+        {
+          "name": "Tea Oražem",
+          "faculty": "EF"
+        }
+      ]
+    },
+    {
+      "group": "Vertikalne Jame",
+      "students": [
+        {
+          "name": "Luka Bassanese",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Gregor Humar",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Danijela Ivanović",
+          "faculty": "EF"
+        },
+        {
+          "name": "Maruša Končar",
+          "faculty": "EF"
+        },
+        {
+          "name": "Nika Novak",
+          "faculty": "EF"
+        },
+        {
+          "name": "Nina Pisk",
+          "faculty": "FA"
+        }
+      ]
+    },
+    {
+      "group": "Zgodbe preteklosti",
+      "students": [
+        {
+          "name": "Martin Fujan",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Simon Jamšek",
+          "faculty": "EF"
+        },
+        {
+          "name": "Katja Katona",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Saša Pristov",
+          "faculty": "EF"
+        },
+        {
+          "name": "Dušan Sekulič",
+          "faculty": "FA"
+        },
+        {
+          "name": "Maja Wolf",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Snemalni industriji prijazna občina",
+      "students": [
+        {
+          "name": "Ana Dolenšek",
+          "faculty": "FA"
+        },
+        {
+          "name": "Urška Klavžer",
+          "faculty": "FA"
+        },
+        {
+          "name": "Sara Kuret",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Klemen Miler",
+          "faculty": "EF"
+        },
+        {
+          "name": "Luka Nemanič",
+          "faculty": "EF"
+        },
+        {
+          "name": "Rudi Adrin Tkalčič",
+          "faculty": "EF"
+        },
+        {
+          "name": "Marianna Tyutyunnyk",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Nadgradnja turistične ponudbe občine Bovec",
+      "students": [
+        {
+          "name": "Suhadolnik Vovko Urška",
+          "faculty": "FA"
+        },
+        {
+          "name": "Pavšič Tine",
+          "faculty": "EF"
+        },
+        {
+          "name": "Žabjek Tomaž",
+          "faculty": "EF"
+        },
+        {
+          "name": "Likovič Rok",
+          "faculty": "EF"
+        },
+        {
+          "name": "Lenaršič Matic",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Poredoš Matjaž",
+          "faculty": "ALUO"
+        }
+      ]
+    }
+  ],
+  "faculties": [
+    "UL Ekonomska fakulteta",
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Fakulteta za arhitekturo"
+  ],
+  "mentors": [
+    {
+      "name": "prof. dr. Tanja Dmitrović",
+      "subject": "Razvoj in trženje novih izdelkov",
+      "faculty_program": "magistrski program Trženje"
+    },
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    },
+    {
+      "name": "doc. Primož Jeza",
+      "subject": "Projektiranje V",
+      "faculty_program": "magistrski program Arhitektura"
+    }
+  ]
+}

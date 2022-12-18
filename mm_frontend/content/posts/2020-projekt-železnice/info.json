@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "title": "Paketovlaki",
+      "tutorial": "PREDSTAVITVE/Paketovlaki_PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Paketovlaki PLAKAT.pdf"
+    },
+    {
+      "title": "Prijetna vožnja tematski vagoni",
+      "tutorial": "PREDSTAVITVE/Tematski vagoni SŽ PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Tematski vagoni SŽ PLAKAT.pdf"
+    },
+    {
+      "title": "SŽ upravitelj trajnostne mobilnosti v Sloveniji",
+      "tutorial": "PREDSTAVITVE/SŽ trajnostna mobilnost PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/SŽ trajnostna mobilnost-PLAKAT.pdf"
+    },
+    {
+      "title": "Izboljšana potovalna izkušnja potnikov in dela sprevodnika na Slovenskih železnicah",
+      "tutorial": "PREDSTAVITVE/Izboljšana izkušnja potnikov SŽ.pdf",
+      "poster": "PLAKATI/Izboljšana izkušnja potnikov SŽ_ PLAKAT-compressed.pdf"
+    }
+  ],
+  "faculties": [
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Fakulteta za elektrotehniko"
+  ],
+  "student_groups": [
+    {
+      "group": "Paketovlaki",
+      "students": [
+        {
+          "name": "Luka Pleskovič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Žan Girandon",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Pedro Bernar Gutierrez",
+          "faculty": ""
+        },
+        {
+          "name": "Alberto Díez González",
+          "faculty": ""
+        },
+        {
+          "name": "Clara Román Merino",
+          "faculty": ""
+        },
+        {
+          "name": "Jan Spiess Guixeras",
+          "faculty": ""
+        }
+      ]
+    },
+    {
+      "group": "Prijetna vožnja tematski vagoni",
+      "students": [
+        {
+          "name": "Pia groleger",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Daša Šešerko",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Bastien Hilaireau",
+          "faculty": ""
+        },
+        {
+          "name": "Thomas Stockner",
+          "faculty": ""
+        }
+      ]
+    },
+    {
+      "group": "SŽ upravitelj trajnostne mobilnosti v Sloveniji",
+      "students": [
+        {
+          "name": "Lina Piškur",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Vid Lebič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Vita Rau",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Anton Klemen",
+          "faculty": ""
+        },
+        {
+          "name": "David Valič",
+          "faculty": ""
+        }
+      ]
+    },
+    {
+      "group": "Izboljšana potovalna izkušnja potnikov in dela sprevodnika na Slovenskih železnicah",
+      "students": [
+        {
+          "name": "Matic Čič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Marko Katrašnik",
+          "faculty": "FRI"
+        },
+        {
+          "name": "Erica Zago",
+          "faculty": "FRI"
+        },
+        {
+          "name": "Jo Zornik",
+          "faculty": "ALUO"
+        }
+      ]
+    }
+  ],
+  "mentors": [
+    {
+      "name": "doc. Miha Klinar",
+      "subject": "Upravljanje v oblikovanju",
+      "faculty_program": "magistrski program Industrijsko oblikovanje"
+    },
+    {
+      "name": "prof. dr. Andrej Kos",
+      "subject": "Interdisciplinarni projekti"
+    },
+    {
+      "name": "mag. Luka Mali",
+      "subject": "Interdisciplinarni projekti"
+    },
+    {
+      "name": "doc. dr. Aleš Pustovrh",
+      "subject": "Interdisciplinarni projekti"
+    }
+  ]
+}
