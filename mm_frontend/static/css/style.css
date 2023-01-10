@@ -517,7 +517,9 @@ footer {
     overflow: auto;
 }
 
-
+.post-mentor-item {
+    margin-bottom: 1rem;
+}
 
 .post-results {
     display: grid;

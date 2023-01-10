@@ -11,7 +11,7 @@
   </section>
   {{ $image := .Resources.GetMatch "proces.png" }}
   {{ with $image }}
-  <section>
+  <section style="width: 96vw;position: relative;left: calc(-48vw + 50%);">
       <img class="proces-img" src="{{ .RelPermalink }}" alt="{{ .Params.alt }}"/>
   </section>
   {{ end }}

@@ -7,6 +7,7 @@ abstract: "Iskraemeco je proizvajalec pametnih in tehnološko naprednih naprav -
 izkoriščene. Kako zagotoviti boljšo uporabniško izkušnjo, spodbuditi razvoj rešitev, ki bodo celovito izkoriščale
 pametne tehnologije in s tem spodbudile vzdržnejšo porabo in transformacijo Mesten občine Kranj v (naj)pametnejše mesto
 v Sloveniji?"
+ytLink: "https://www.youtube.com/embed/lhAkN9uXRAY"
 draft: false
 ---
 
