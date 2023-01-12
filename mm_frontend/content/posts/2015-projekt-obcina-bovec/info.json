@@ -378,6 +378,12 @@
     "UL Akademija za likovno umetnost in oblikovanje",
     "UL Fakulteta za arhitekturo"
   ],
+  "opinions": [
+    {
+      "author": "G. Janko Humar, direktor LTO Bovec",
+      "text": "Projektne naloge predstavljajo odličen primer profesionalnega pristopa k reševanju problemov v zahtevni dejavnosti; vsak izmed predstavljenih projektov je imel jasno izoblikovan vsebinski koncept, opredeljene ciljne skupine, ocenjena vlaganja in kritične točke za pokritje stroškov. Večino idej so študenti razvili do tržno koncipiranih paketov, vse predstavljene ideje pa so bile med sabo tudi dobro usklajene. Dodatno širino in celovitost obravnave problematike so študentje dosegli skozi interdisciplinarni – torej ekonomski, oblikovalski in arhitekturni pristop."
+    }
+  ],
   "mentors": [
     {
       "name": "prof. dr. Tanja Dmitrović",
