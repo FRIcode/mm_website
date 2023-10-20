@@ -1,7 +1,10 @@
 {
   "faculties": [
     "UL Akademija za likovno umetnost in oblikovanje",
-    "UL Fakulteta za elektrotehniko"
+    "UL Fakulteta za elektrotehniko",
+    "UL Fakulteta za računalništvo in informatiko",
+    "UL Biotehniška fakulteta",
+    "UL Ekonomska fakulteta"
   ],
   "mentors": [
     {
@@ -26,18 +29,18 @@
     },
     {
       "name": "prof. dr. Tanja Dmitrović",
-      "subject": "Trženje v agroživilskih in lesnih verigah, Ekonomika projektov",
-      "faculty_program": "BF, EF"
-    },
-    {
-      "name": "prof. dr. Mojca Marc",
       "subject": "Ekonomika projektov",
       "faculty_program": "EF"
     },
     {
-      "name": "doc. dr. Aleš Pustovrh",
-      "subject": "Podpora pri pripravi učinkovite predstavitve",
-      "faculty_program": "EF"
+      "name": "prof. dr. Leon Oblak",
+      "subject": "Trženje v agroživilskih in lesnih verigah",
+      "faculty_program": "BF"
+    },
+    {
+      "name": "doc. dr. Matej Jošt",
+      "subject": "Trženje v agroživilskih in lesnih verigah",
+      "faculty_program": "BF"
     }
   ]
 }
