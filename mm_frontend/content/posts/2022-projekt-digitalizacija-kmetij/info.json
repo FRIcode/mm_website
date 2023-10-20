@@ -1,10 +1,76 @@
 {
+  "results": [
+    {
+      "title": "Interpretacija podatkov na uporabnikom razumljiv način, Mar+",
+      "tutorial": "PREDSTAVITVE/Interpretacija podatkov PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Interpretacija podatkov PLAKAT.pdf"
+    },
+    {
+      "title": "Podatki v realnem času, E-Check",
+      "tutorial": "PREDSTAVITVE/Podatki v realnem času PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Podatki v realnem času PLAKAT.pdf"
+    },
+    {
+      "title": "Paviljon",
+      "tutorial": "PREDSTAVITVE/PSredišče prihodnosti PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Sredisce prihodnosti PLAKAT.pdf"
+    },
+    {
+      "title": "Števce na ljudi",
+      "tutorial": "PREDSTAVITVE/Števce na ljudi PREDSTAVITEV.pdf",
+      "poster": "PLAKATI/Stevce na ljudi PLAKAT.pdf"
+    }
+  ],
   "faculties": [
     "UL Akademija za likovno umetnost in oblikovanje",
     "UL Fakulteta za elektrotehniko",
     "UL Fakulteta za računalništvo in informatiko",
     "UL Biotehniška fakulteta",
     "UL Ekonomska fakulteta"
+  ],
+  "student_groups": [
+    {
+      "group": "EKOKmet: Vodnik do ekološkega kmetovanja",
+      "students": [
+        {
+          "name": "Laura Bučar",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Zoja Funda Lipnik",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Sara Peklenik",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Krištof Zupan",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Bojan Vrangeloski",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Nejc Šutar",
+          "faculty": "BF"
+        },
+        {
+          "name": "Matevž Smuk",
+          "faculty": "BF"
+        },
+      ]
+    },
+    {
+      "group": "TODO",
+      "students": [
+        {
+          "name": "TODO",
+          "faculty": "TODO"
+        },
+      ]
+    }
   ],
   "mentors": [
     {
