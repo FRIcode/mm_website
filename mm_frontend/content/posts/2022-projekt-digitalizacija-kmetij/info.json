@@ -1,25 +1,31 @@
 {
   "results": [
     {
-      "title": "Interpretacija podatkov na uporabnikom razumljiv način, Mar+",
-      "tutorial": "PREDSTAVITVE/Interpretacija podatkov PREDSTAVITEV.pdf",
-      "poster": "PLAKATI/Interpretacija podatkov PLAKAT.pdf"
+      "title": "EKOKmet: Vodnik do ekološkega kmetovanja",
+      "tutorial": "PREDSTAVITVE/2023_ekokmet.pdf",
+      "poster": "PLAKATI/2023_ekokmet.pdf",
     },
     {
-      "title": "Podatki v realnem času, E-Check",
-      "tutorial": "PREDSTAVITVE/Podatki v realnem času PREDSTAVITEV.pdf",
-      "poster": "PLAKATI/Podatki v realnem času PLAKAT.pdf"
+      "title": "Kaslc",
+      "tutorial": "PREDSTAVITVE/2023_kaslc.pdf",
+      "poster": "PLAKATI/2023_kaslc.pdf",
     },
     {
-      "title": "Paviljon",
-      "tutorial": "PREDSTAVITVE/PSredišče prihodnosti PREDSTAVITEV.pdf",
-      "poster": "PLAKATI/Sredisce prihodnosti PLAKAT.pdf"
+      "title": "Kmetija na dlani",
+      "tutorial": "PREDSTAVITVE/2023_kmetijanadlani.pdf",
+      "poster": "PLAKATI/2023_kmetijanadlani.pdf"
     },
     {
-      "title": "Števce na ljudi",
-      "tutorial": "PREDSTAVITVE/Števce na ljudi PREDSTAVITEV.pdf",
-      "poster": "PLAKATI/Stevce na ljudi PLAKAT.pdf"
+      "title": "Moja vas",
+      "tutorial": "PREDSTAVITVE/2023_mojavas.pdf",
+      "poster": "PLAKATI/2023_mojavas.pdf"
+    },
+    {
+      "title": "Vloga izpolni se",
+      "tutorial": "PREDSTAVITVE/2023_vlogaizpolnise.pdf",
+      "poster": "PLAKATI/2023_vlogaizpolnise.pdf"
     }
+    
   ],
   "faculties": [
     "UL Akademija za likovno umetnost in oblikovanje",
