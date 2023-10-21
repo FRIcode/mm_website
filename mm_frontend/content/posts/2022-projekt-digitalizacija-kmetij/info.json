@@ -3,12 +3,12 @@
     {
       "title": "EKOKmet: Vodnik do ekološkega kmetovanja",
       "tutorial": "PREDSTAVITVE/2023_ekokmet.pdf",
-      "poster": "PLAKATI/2023_ekokmet.pdf",
+      "poster": "PLAKATI/2023_ekokmet.pdf"
     },
     {
       "title": "Kaslc",
       "tutorial": "PREDSTAVITVE/2023_kaslc.pdf",
-      "poster": "PLAKATI/2023_kaslc.pdf",
+      "poster": "PLAKATI/2023_kaslc.pdf"
     },
     {
       "title": "Kmetija na dlani",
@@ -65,7 +65,7 @@
         {
           "name": "Matevž Smuk",
           "faculty": "BF"
-        },
+        }
       ]
     },
     {
@@ -109,7 +109,6 @@
         }
       ]
     },
-    ,
     {
       "group": "Kmetija na dlani",
       "students": [
