@@ -63,12 +63,152 @@
       ]
     },
     {
-      "group": "TODO",
+      "group": "Kaslc",
       "students": [
         {
-          "name": "TODO",
-          "faculty": "TODO"
+          "name": "Esma Hajdarpasić",
+          "faculty": "ALUO"
         },
+        {
+          "name": "Andrija Mihailović",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Nejc Jager",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Aljaž Skvarč Božič",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Gašper Šink",
+          "faculty": "BF"
+        },
+        {
+          "name": "Andraž Pacek",
+          "faculty": "BF"
+        },
+        {
+          "name": "Kevin Leban",
+          "faculty": "EF"
+        },
+        {
+          "name": "Nik Dobnikar",
+          "faculty": "EF"
+        },
+        {
+          "name": "Domen Fortuna",
+          "faculty": "EF"
+        }
+      ]
+    },
+    ,
+    {
+      "group": "Kmetija na dlani",
+      "students": [
+        {
+          "name": "Nika Vidnjevič",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Jaka Oman",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Nejc Jager",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Ana Jenko",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Patrik Schembri",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Timotej Šalamon",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Kristjan Krt",
+          "faculty": "BF"
+        },
+        {
+          "name": "Ina Pocevska",
+          "faculty": "BF"
+        }
+      ]
+    },
+    {
+      "group": "Moja Vas",
+      "students": [
+        {
+          "name": "Aleksander Osvald",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Eva Vidmar",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Jure Tič",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Marija Klemenčič",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Marjana Raspor",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Martin Konestabo",
+          "faculty": "BF"
+        },
+        {
+          "name": "Mikela Ivančič",
+          "faculty": "BF"
+        },
+        {
+          "name": "Urh Furlanič",
+          "faculty": "ALUO"
+        }
+      ]
+    },
+    {
+      "group": "Vloga izpolni se",
+      "students": [
+        {
+          "name": "Andrej Hočevar",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Gašper Pirnat",
+          "faculty": "ALUO"
+        },
+        {
+          "name": "Jakob Marušič",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Manja Kocbek",
+          "faculty": "BF"
+        },
+        {
+          "name": "Rok Torkar",
+          "faculty": "FE/FRI"
+        },
+        {
+          "name": "Shakir Jusufoski",
+          "faculty": "BF"
+        },
+        {
+          "name": "Iva Grilec",
+          "faculty": "ALUO"
+        }
       ]
     }
   ],
