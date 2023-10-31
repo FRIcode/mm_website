@@ -10,5 +10,6 @@ in izzivi prilagajanj kmetovanja novi podnebni realnosti. Vključevanje novih te
 specifičnim potrebam kmetov lahko spodbudi pozitivne spremebe v kvaliteti življenja in dela, prispeva k izboljšanju
 socialnega položaja in ekonomskega standarda kmetov in izboljša oskrbo s kvalitetno trajnostno pridelano hrano."
 draft: false
+ytLink: https://www.youtube.com/watch?v=XU06mhl6fOI
 active: true
 ---
