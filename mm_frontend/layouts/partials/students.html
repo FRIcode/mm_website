@@ -1,12 +1,17 @@
 {{ range (where .Site.RegularPages "Section" "posts") }}
+  <!-- Check if info.json exists -->
+  {{ if .Page.Resources.GetMatch "info.json" }}
   {{ $infoResource := (.Page.Resources.GetMatch "info.json").RelPermalink }}
   {{ $info := getJSON "content" $infoResource }}
-
+  <!-- Check if info json requested correctly -->
+  {{ if $info }}
   {{ range $info.student_groups }}
   {{ range .students}}
   <div class="student-item">
     <div class="student-name">{{.name}}</div><div class="student-faculty">{{.faculty}}</div>
   </div>
+  {{ end }}
+  {{ end }}
   {{ end }}
   {{ end }}
 {{ end }}
