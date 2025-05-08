@@ -11,11 +11,8 @@ title = "Multidisciplinarni projekti na UL"
     text = "Multidisciplinarna, projektno zasnovana učna izkušnja magistrskih študentov različnih fakultet in programov UL"
     linkText = "Kako poteka sodelovanje"
   [[params.leaders]]
-    name = "doc. Miha Klinar"
+    name = "doc. Miha Klinar, dr. Jana Vilman"
     faculty = "Akademija za likovno umetnost in oblikovanje"
-  [[params.leaders]]
-    name = "prof. dr. Tanja Dmitrović"
-    faculty = "Ekonomska Fakulteta"
   [[params.leaders]]
     name = "prof. dr. Andrej Kos, mag. Luka Mali"
     faculty = "Fakulteta za elektrotehniko"
@@ -29,9 +26,8 @@ title = "Multidisciplinarni projekti na UL"
     name = "prof. dr. Emil Erjavec, prof. dr. Andrej Udovč"
     faculty = "Biotehniška fakulteta"
   [[params.mentors]]
-    name = "prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh"
+    name = "prof. dr. Tanja Dmitrović, prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh"
     faculty = "Ekonomska Fakulteta"
-
   [params.footer]
     text = "Za več vprašanj smo vam na voljo na"
     mail = "info@multidisciplinaren.si"
