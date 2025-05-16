@@ -13,6 +13,7 @@ jobs:
         run: |
           curl \
             -X POST \
+            --fail-with-body \
             -H 'Content-Type: application/json' \
             -H 'X-Api-Key: ${{secrets.KDS_APIKEY}}' \
             'https://kds.koin.lgm.fri.ingress.si/api/v1/deploy/${{secrets.KDS_APPID}}'
