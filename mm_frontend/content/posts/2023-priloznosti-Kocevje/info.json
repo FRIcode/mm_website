@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "title": "Projekt 1: Ime projekta",
+      "tutorial": "PREDSTAVITVE/1.pdf",
+      "poster": "PLAKATI/1.pdf"
+    }
+  ],
+  "faculties": [
+    "UL Akademija za likovno umetnost in oblikovanje",
+    "UL Fakulteta za elektrotehniko",
+    "UL Fakulteta za računalništvo in informatiko"
+  ],
+  "student_groups": [
+    {
+      "group": "Projekt 1: Ime projekta",
+      "students": [
+        {
+          "name": "",
+          "faculty": ""
+        }  
+    ]
+}
