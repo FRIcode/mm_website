@@ -29,7 +29,7 @@
     <!-- Results -->
   {{ if .Resources.GetMatch "info.json" }}
     {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
-    {{ $info := getJSON "content" $infoResource }}
+    {{ $info := .Resources.Get $infoResource | transform.Unmarshal }}
     {{ with $info.results  }}
       <hr class="divider"/>
       <div class="post-section-title metas">REZULTATI PROJEKTOV</div>
@@ -74,7 +74,7 @@
   <!-- Partners and info -->
   {{ if .Resources.GetMatch "info.json" }}
     {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
-    {{ $info := getJSON "content" $infoResource }}
+    {{ $info := .Resources.Get $infoResource | transform.Unmarshal }}
     {{ with $info  }}
       <hr class="divider"/>
       <section class="post-info">
@@ -120,7 +120,7 @@
   <!-- Students section -->
   {{ if .Resources.GetMatch "info.json" }}
     {{ $infoResource := (.Resources.GetMatch "info.json").RelPermalink }}
-    {{ $info := getJSON "content" $infoResource }}
+    {{ $info := .Resources.Get $infoResource | transform.Unmarshal }}
     {{ with $info.student_groups  }}
       <hr class="divider"/>
       <section>

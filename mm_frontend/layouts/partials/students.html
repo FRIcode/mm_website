@@ -2,7 +2,7 @@
   <!-- Check if info.json exists -->
   {{ if .Page.Resources.GetMatch "info.json" }}
   {{ $infoResource := (.Page.Resources.GetMatch "info.json").RelPermalink }}
-  {{ $info := getJSON "content" $infoResource }}
+  {{ $info := .Resources.Get $infoResource | transform.Unmarshal }}
   <!-- Check if info json requested correctly -->
   {{ if $info }}
   {{ range $info.student_groups }}
