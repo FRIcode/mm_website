@@ -20,14 +20,11 @@ title = "Multidisciplinarni projekti na UL"
     name = "doc. dr. Matevž Pesek"
     faculty = "Fakulteta za računalništvo in informatiko"
   [[params.mentors]]
-    name = "doc. Primož Jeza"
+    name = "prof. dr. Tanja Dmitrović, prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh, doc. Primož Jeza"
     faculty = "Ekonomska Fakulteta"
   [[params.mentors]]
     name = "prof. dr. Emil Erjavec, prof. dr. Andrej Udovč"
-    faculty = "Biotehniška fakulteta"
-  [[params.mentors]]
-    name = "prof. dr. Tanja Dmitrović, prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh"
-    faculty = "Ekonomska Fakulteta"
+    faculty = "Biotehniška fakulteta"  
   [params.footer]
     text = "Za več vprašanj smo vam na voljo na"
     mail = "info@multidisciplinaren.si"
