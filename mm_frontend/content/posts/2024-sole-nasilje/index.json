@@ -1,0 +1,177 @@
+{
+    "results": [
+      {
+        "title": "Vloga arhitekture pri preprečevanju nasilja v šolah",
+        "tutorial": "PREDSTAVITVE/01-Jaka-Klara.pdf",
+        "poster": "PLAKATI/"
+      },
+      {
+        "title": "Sodelovanje kot ključna metoda za učinkovito delovanje šolskega kolektiva",
+        "tutorial": "PREDSTAVITVE/02-Zoja-Jure.pdf",
+        "poster": "PLAKATI/"
+      },
+      {
+        "title": "Otroke se ne uči o čustvih in kako jih izražati",
+        "tutorial": "PREDSTAVITVE/03-Marko-Umihana-Nina-Sofia.pdf",
+        "poster": "PLAKATI/"
+      },
+      {
+        "title": "Preobremenjenost učiteljev z administrativnim delom in ukvarjanjem z nasiljem",
+        "tutorial": "PREDSTAVITVE/04-Crt-Anja.pdf",
+        "poster": "PLAKATI/"
+      },
+      {
+        "title": "Posodobitev učnega programa za odkrivanje novih znanj ",
+        "tutorial": "PREDSTAVITVE/05-Matic-Masa.pdf",
+        "poster": "PLAKATI/"
+      }
+      
+    ],
+    "faculties": [
+      "UL Akademija za likovno umetnost in oblikovanje",
+      "UL Fakulteta za elektrotehniko",
+      "UL Fakulteta za računalništvo in informatiko"
+    ],
+    "student_groups": [
+        {
+            "group": "Vloga arhitekture pri preprečevanju nasilja v šolah",
+            "students": [
+            {
+                "name": "Jaka Kordiš",
+                "email": "jk66273@student.uni-lj.si"
+            },
+            {
+                "name": "Klara Maček",
+                "email": "km93123@student.uni-lj.si"
+            },
+            {
+                "name": "Marko Kofol",
+                "email": "mk21857@student.uni-lj.si"
+            },
+            {
+                "name": "Enes Fejzoski",
+                "email": "ef1816@student.uni-lj.si"
+            }
+            ]
+        },
+        {
+            "group": "Sodelovanje kot ključna metoda za učinkovito delovanje šolskega kolektiva",
+            "students": [
+            {
+                "name": "Jure Kralj",
+                "email": "jk80312@student.uni-lj.si"
+            },
+            {
+                "name": "Zoja Čepin",
+                "email": "zc92999@student.uni-lj.si"
+            },
+            {
+                "name": "Marija Klemenčič",
+                "email": "mk89921@student.uni-lj.si"
+            },
+            {
+                "name": "Matija Podbreznik",
+                "email": "mp0685@student.uni-lj.si"
+            }
+            ]
+        },
+        {
+            "group": "Otroke se ne uči o čustvih in kako jih izražati",
+            "students": [
+            {
+                "name": "Marko Gorenak",
+                "email": "mg14176@student.uni-lj.si"
+            },
+            {
+                "name": "Umihana Dizdarević",
+                "email": "ud25067@student.uni-lj.si"
+            },
+            {
+                "name": "Nina Vranješ",
+                "email": "nv39619@student.uni-lj.si"
+            },
+            {
+                "name": "Sofia Pompurová",
+                "email": "sp23947@student.uni-lj.si"
+            },
+            {
+                "name": "Logar Lara",
+                "email": "ll38242@student.uni-lj.si"
+            },
+            {
+                "name": "Sara Štrakl",
+                "email": "ss00388@student.uni-lj.si"
+            }
+            ]
+        },
+        {
+            "group": "Preobremenjenost učiteljev z administrativnim delom in ukvarjanjem z nasiljem",
+            "students": [
+            {
+                "name": "Anja Tudjan",
+                "email": "at94167@student.uni-lj.si"
+            },
+            {
+                "name": "Črt Štrubelj",
+                "email": "cs82117@student.uni-lj.si"
+            },
+            {
+                "name": "Luka Mihelič",
+                "email": "mm12360@student.uni-lj.si"
+            },
+            {
+                "name": "Urška Krumpak",
+                "email": "uk92084@student.uni-lj.si"
+            }
+            ]
+        },
+        {
+            "group": "Posodobitev učnega programa za odkrivanje novih znanj",
+            "students": [
+            {
+                "name": "Maša Kralj",
+                "email": "mk70983@student.uni-lj.si"
+            },
+            {
+                "name": "Matic Lesjak",
+                "email": "ml71046@student.uni-lj.si"
+            },
+            {
+                "name": "Manca Vidmar",
+                "email": "mv8005@student.uni-lj.si"
+            },
+            {
+                "name": "Matic Klopčič",
+                "email": "mk6792@student.uni-lj.si"
+            }
+            ]
+        }
+    ],
+    "mentors": [
+      {
+        "name": "doc. dr. Jana Vilman",
+        "subject": "Upravljanje v oblikovanju",
+        "faculty_program": "magistrski program Industrijsko oblikovanje, ALUO"
+      },
+      {
+        "name": "doc. Miha Klinar",
+        "subject": "Upravljanje v oblikovanju",
+        "faculty_program": "magistrski program Industrijsko oblikovanje, ALUO"
+      },
+      {
+        "name": "prof. dr. Andrej Kos",
+        "subject": "Interdisciplinarni projekti",
+        "faculty_program": "FE"
+      },
+      {
+        "name": "doc. dr. Matevž Pesek",
+        "subject": "Interdisciplinarni projekti",
+        "faculty_program": "FRI"
+      },
+      {
+        "name": "mag. Luka Mali",
+        "subject": "Interdisciplinarni projekti",
+        "faculty_program": "FE"
+      }
+    ]
+  }
