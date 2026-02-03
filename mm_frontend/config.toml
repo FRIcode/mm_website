@@ -14,7 +14,10 @@ title = "Multidisciplinarni projekti na UL"
     name = "doc. Miha Klinar"
     faculty = "Akademija za likovno umetnost in oblikovanje"
   [[params.leaders]]
-    name = "prof. dr. Andrej Kos, mag. Luka Mali"
+    name = "prof. dr. Andrej Kos"
+    faculty = "Fakulteta za elektrotehniko"
+  [[params.leaders]]
+    name = "Luka Mali"
     faculty = "Fakulteta za elektrotehniko"
   [[params.leaders]]
     name = "doc. dr. Matevž Pesek"
