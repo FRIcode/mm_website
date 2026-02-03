@@ -11,7 +11,7 @@ title = "Multidisciplinarni projekti na UL"
     text = "Multidisciplinarna, projektno zasnovana učna izkušnja magistrskih študentov različnih fakultet in programov UL"
     linkText = "Kako poteka sodelovanje"
   [[params.leaders]]
-    name = "doc. Miha Klinar, dr. Jana Vilman"
+    name = "doc. Miha Klinar"
     faculty = "Akademija za likovno umetnost in oblikovanje"
   [[params.leaders]]
     name = "prof. dr. Andrej Kos, mag. Luka Mali"
@@ -20,6 +20,12 @@ title = "Multidisciplinarni projekti na UL"
     name = "doc. dr. Matevž Pesek"
     faculty = "Fakulteta za računalništvo in informatiko"
   [[params.mentors]]
+    name = "prof. dr. Gregor Jurak"
+    faculty = "Fakulteta za šport"  
+  [[params.mentors]]
+    name = "dr. Jana Vilman"
+    faculty = "Akademija za likovno umetnost in oblikovanje"
+  [[params.mentors]] 
     name = "prof. dr. Tanja Dmitrović, prof. dr. Mojca Marc, doc. dr. Aleš Pustovrh, doc. Primož Jeza"
     faculty = "Ekonomska Fakulteta"
   [[params.mentors]]
